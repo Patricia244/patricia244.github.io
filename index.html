@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4fcd54d10c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" media="screen and (max-width:1180px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (max-width:900px)" href="phone.css">
+    <link rel="stylesheet" media="screen and (max-width:695px)" href="phone1.css">
+    
+</head>
+<body>
+    <nav class="navbar">
+      
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1 class="heading">HI, I AM</h1>
+        <h1 class="heading">SILINDILE MADLALA</h1>
+        <br><br>
+        <p>web developer</p>
+    </section>
+    
+    <section id="about">
+        <h1 class="heading">About me</h1>
+        <div class="about">
+            <img src="IMG2.jpg" alt="My Pic">
+            <div class="name">
+                <h2>I'm Silindile Madlala</h2>
+                <p>I'm a hardworking web developer who is eager to contribute to the team's success. 
+                    Excellent organizational skills and attention to detail Dedicated to continuing to learn and grow in the industry. 
+                    Tenacious strategic centered on developing the company details, resilient and flexible in addressing issues, and exceeding company objectives with forward-thinking.</p>
+            </div>
+        </div>
+    </section>
+
+<section>
+    <section id="skills">
+        <h1 class="my-skills">SKILLS</h1>
+        <div class="columns">
+            <div class="box">
+                <h2>TECHNICAL SKILLS</h2>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS</li>
+                    <li>JAVASCRIPT</li>
+                </ul>
+            </div>
+            <div class="box">
+                <h2>PERSONAL SKILLS</h2>
+                <p> Effective team player highly communicative and cooperative, active listener, innovative researcher</p>
+                
+            </div>
+    
+            
+        </div>
+    </section>
+    </section>
+   <section>
+    <div class="details">
+       
+        </div>
+
+        <div class="social-link">
+              
+           <button onclick = 'contactMe()'> <i class="fas fa-phone-alt"></i></button>
+    
+            <a href = 'https://www.linkedin.com/in/silindile-madlala-4799241a7/' target ="blank">
+                <i class="fab fa-linkedin"></i>
+               
+            </a>
+        <a href="https://github.com/" target ="blank">
+      
+            <i class="fab fa-github"></i>
+         
+           
+    </a>
+    
+    </div>
+   </section>
+   <script>
+    function contactMe(){
+        let emailAddress = 'patriatiaslindile5@gmail.com'
+        let phoneNumber = '073 891 8236'
+    alert(` Here are my contact details:
+    ${emailAddress} 
+    ${phoneNumber} `)
+    
+    }
+</script>
+
+</body>
+</html>
