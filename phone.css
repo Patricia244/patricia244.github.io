@@ -27,6 +27,13 @@
     margin-left:3px;
 
 }
+.navbar::before{
+    width:100%
+}
+
 #skills{
-    background-size: cover;
+    width:100%;
+}
+#home::before{
+    width:100%;
 }

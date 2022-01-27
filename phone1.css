@@ -29,11 +29,7 @@
     height: 150px;
     padding: 0px 15px;
 }
-/* Message box */
-#message{
-    width: 40%;
-    height: 200px;
-}
+
 
 /* Boxes */
 .box{
@@ -52,4 +48,14 @@
 .box p{
     color: white;
     font-size: .8rem;
+}
+.navbar::before{
+    width:100%
+}
+
+#skills{
+    width:100%;
+}
+#home::before{
+    width:100%;
 }
