@@ -1,61 +1,77 @@
 /* Navbar */
-.navbar ul{
-    flex-wrap: wrap;
-    justify-content: center;
+.navbar{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 110px;
+}
+.navbar ul {
+  flex-wrap: wrap;
+  justify-content: center;
+
+  width: 100%;
+  position: absolute;
+  top: 75px;
+  right: 0;
+  z-index: -1;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+nav ul li {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
+.toggle-button{
+    display: flex;
+}
+.navbar-links{
+    display: none;
+}
 
 /* Headings */
-.heading{
-    font-size: 1.3rem;
+.heading {
+  font-size: 1.3rem;
 }
 
 /* Gallery Images */
-.gallery img{
-    width: 270px;
-    height: 360px;
+.gallery img {
+  width: 270px;
+  height: 360px;
 }
 
 /* About Section */
-.about{
-    flex-direction: column;
+.about {
+  flex-direction: column;
 }
-.about h2{
-    text-align: center;
-}
-
-.about img{
-    width: 200px;
-    height: 150px;
-    padding: 0px 15px;
+.about h2 {
+  text-align: center;
 }
 
+.about img {
+  width: 200px;
+  height: 150px;
+  padding: 0px 15px;
+}
+/* Message box */
+#message {
+  width: 40%;
+  height: 200px;
+}
 
 /* Boxes */
-.box{
-    height: 150px;
-    width: 250px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 20px;
-    margin: 10px;
-    padding: 10px;
+.box {
+  height: 150px;
+  width: 250px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
 }
-.box h2{
-    color: yellowgreen;
-    font-size: 1.2rem;
-    margin-bottom: 20px;
+.box h2 {
+  color: yellowgreen;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
 }
-.box p{
-    color: white;
-    font-size: .8rem;
-}
-.navbar::before{
-    width:100%
-}
-
-#skills{
-    width:100%;
-}
-#home::before{
-    width:100%;
+.box p {
+  color: white;
+  font-size: 0.8rem;
 }
