@@ -25,7 +25,7 @@ nav ul li {
 
 }
 .navbar-links{
-  display: flex;
+  display: none;
   width: 100%;
 }
 .navbar{

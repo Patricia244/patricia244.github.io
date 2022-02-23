@@ -59,16 +59,21 @@
     display: inline-block;
     color: black;
 }
+
 .navbar::before{
-    width:100%
+    width:100%;
+    background-color: #000000dc;
+    
 }
+
 .toggle-btn{
     display: flex;
 
 }
 .navbar-links{
-    display: flex;
+    display: none;
     width: 100%;
+    margin-top: 30%;
 }
 .navbar{
     flex-direction: column;
@@ -78,15 +83,13 @@
     flex-direction: column;
     width: 100%;
 }
-.navbar-links li{
+.navbar-links li a{
   padding: .1rem;
+
 }
 .navbar-links.active{
     display: flex;
 }
-
-
-
 
 
 

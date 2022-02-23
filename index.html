@@ -9,7 +9,7 @@
     <link rel="stylesheet" media="screen and (max-width:1180px)" href="tablet.css">
     <link rel="stylesheet" media="screen and (max-width:900px)" href="phone.css">
     <link rel="stylesheet" media="screen and (max-width:695px)" href="phone1.css">
-    <script src="script.js" defer></script>
+    
 </head>
 <body>
    
@@ -45,6 +45,12 @@
     </div>
     </section>
    
-
+    <script >
+    const toggleButton = document.getElementsByClassName("toggle-btn")[0]
+        const navbarLinks = document.getElementsByClassName("navbar-links")[0]
+        
+        toggleButton.addEventListener("click",()=>{
+            navbarLinks.classList.toggle("active")
+        })</script>
 </body>
 </html>
