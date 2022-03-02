@@ -2,9 +2,7 @@
     margin: 0;
     padding: 0;
 }
-html{
-    scroll-behavior: smooth;
-}
+
 
 /* navbar */
 
@@ -71,30 +69,25 @@ z-index: 0;
     display: flex;
     flex-direction: column;
     height: 100vh;
-    width: 100%;
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.5);
-    /* background-size: cover; */
-    /* margin-top: 100px; */
     color: white;
 }
-
- 
 #home::before{
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     background: url('images2.jpg') no-repeat center center/cover;
-   
-    background-size:cover;
-    height: 650px;
+    height: 100vh;
     width: 100%;
     z-index: -1;
     opacity: .8;
 }
-
+::-webkit-scrollbar{
+    display: none;
+}
   
 .heading{
     color: white;
@@ -162,7 +155,7 @@ text-align: center;
     text-align: justify;
     /* height: 100%; */
     background-color: #000000dc;
-    
+    height: 100vh;
 } 
 #about h1{
     color:white;
