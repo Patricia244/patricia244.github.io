@@ -72,10 +72,20 @@
     color: black;
 }
 
-.navbar::before{
-    width:100%;
-    background-color: #000000dc;
-    
+.navbar{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 110px;
+}
+.navbar ul {
+  flex-wrap: wrap;
+  justify-content: center;
+
+  width: 100%;
+  position: absolute;
+  top: 75px;
+  right: 0;
+  z-index: -1;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .toggle-btn{
@@ -86,6 +96,7 @@
     display: none;
     width: 100%;
     margin-top: 30%;
+    background-color: #000000dc;
 }
 .navbar{
     flex-direction: column;
@@ -96,7 +107,7 @@
     width: 100%;
 }
 .navbar-links li a{
-  padding: .1rem;
+padding: 0;
 
 }
 .navbar-links.active{
