@@ -1,0 +1,90 @@
+/* Navbar */
+.navbar{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 110px;
+}
+.navbar ul {
+  flex-wrap: wrap;
+  justify-content: center;
+
+  width: 100%;
+  position: absolute;
+  top: 75px;
+  right: 0;
+  z-index: -1;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+nav ul li {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.toggle-btn{
+  display: flex;
+
+}
+.navbar-links{
+  display: none;
+  width: 100%;
+}
+.navbar{
+  flex-direction: column;
+  align-items: flex-start;
+}
+.navbar-links ul{
+  flex-direction: column;
+  width: 100%;
+}
+.navbar-links li{
+padding: .1rem;
+}
+.navbar-links.active{
+  display: flex;
+}
+
+
+/* Headings */
+.heading {
+  font-size: 1.3rem;
+}
+
+
+/* About Section */
+.about {
+  flex-direction: column;
+}
+.about h2 {
+  text-align: center;
+}
+
+.about img {
+  width: 200px;
+  height: 150px;
+  padding: 0px 15px;
+}
+/* Message box */
+#message {
+  width: 40%;
+  height: 200px
+ 
+}
+
+/* Boxes */
+.box {
+  height: 150px;
+  width: 250px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+}
+.box h2 {
+  color: yellowgreen;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+.box p {
+  color: white;
+  font-size: 0.8rem;
+}
