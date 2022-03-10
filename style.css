@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-html, body {margin: 0; height: 100%; overflow: hidden}
+/* html, body {margin: 0; height: 100%; overflow: hidden} */
 
 /* navbar */
 
@@ -205,19 +205,24 @@ text-align: center;
 }
 .social-link button{
     font-size: 22px;
-    width: 45px;
-    height: 45px;
+    
     line-height: 39px;
     display: inline-block;
     color: black;
 }
+.social-link i{
+ width: 50px;
+height: 50px;
+}
 .social-link p{
     display: inline-block;
 }
+.social-link i:hover{
+    color: blueviolet;
+}
  #number{
-font-size: 15px;
-text-decoration: none;
-display: inline;
+height: 50px;
+width: 50px;
 }
 #number:hover{
     color: blueviolet;
@@ -280,7 +285,7 @@ display: inline;
 }
 .gallery img{
     width: 360px;
-    height: 640px;
+    height: 400px;
     padding: 10px;
     margin: 10px;
 }
