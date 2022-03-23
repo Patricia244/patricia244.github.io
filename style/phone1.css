@@ -1,77 +1,48 @@
 /* Navbar */
-.navbar{
-    background-color: rgba(0, 0, 0, 0.5);
-    height: 110px;
-}
-.navbar ul {
+.navbar ul{
   flex-wrap: wrap;
   justify-content: center;
-
-  width: 100%;
-  position: absolute;
-  top: 75px;
-  right: 0;
-  z-index: -1;
-  background-color: rgba(0, 0, 0, 0.5);
 }
-nav ul li {
-  display: block;
-  margin-top: 10px;
-  margin-bottom: 10px;
+.navbar-links ul li{
+  padding: 9px;
 }
 
-.toggle-btn{
-  display: flex;
-
-}
-.navbar-links{
-  display: none;
-  width: 100%;
-}
-.navbar{
-  flex-direction: column;
-  align-items: flex-start;
-}
 .navbar-links ul{
-  flex-direction: column;
-  width: 100%;
+  margin-top: 60%;
 }
-.navbar-links li{
-padding: .1rem;
-}
-.navbar-links.active{
-  display: flex;
-}
-
-
 /* Headings */
-.heading {
-  font-size: 1.3rem;
+.heading{
+  font-size: 2.3rem;
+  margin-top: 10%;
 }
 
+/* Gallery Images */
+.gallery img{
+  width: 270px;
+  height: 360px;
+}
 
 /* About Section */
-.about {
+.about{
   flex-direction: column;
 }
-.about h2 {
+.about h2{
   text-align: center;
 }
 
-.about img {
+.about img{
   width: 200px;
   height: 150px;
   padding: 0px 15px;
 }
 /* Message box */
-#message {
+#message{
   width: 40%;
-  height: 200px
- 
+  height: 200px;
 }
 
 /* Boxes */
-.box {
+.box{
   height: 150px;
   width: 250px;
   background-color: rgba(255, 255, 255, 0.1);
@@ -79,12 +50,28 @@ padding: .1rem;
   margin: 10px;
   padding: 10px;
 }
-.box h2 {
+.box h2{
   color: yellowgreen;
   font-size: 1.2rem;
   margin-bottom: 20px;
 }
-.box p {
+.box p{
   color: white;
-  font-size: 0.8rem;
+  font-size: .8rem;
+}
+.social-link {
+  position: absolute;
+  bottom: 50px;
+  left: 9%;
+
+}
+
+#mybody{
+  background:  #000000dc;
+}
+.box{
+  margin-top: 50%;
+}
+#name{
+  margin-top: 30%;
 }

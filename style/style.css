@@ -2,7 +2,15 @@
   margin: 0;
   padding: 0;
 }
-/* html, body {margin: 0; height: 100%; overflow: hidden} */
+
+
+html,body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
 
 /* navbar */
 
@@ -13,11 +21,13 @@
   align-items: center;
   position: sticky;
   top: 0;
+  padding-bottom: -1px;
+ 
 }
 .navbar::before {
   content: "";
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #000000dc;
   height: 100%;
   width: 100%;
   z-index: -1;
@@ -29,18 +39,20 @@
 .navbar ul li {
   font-size: 1.1rem;
 }
-.navbar ul li a {
+.navbar ul li a{
   padding: 5px 20px;
   text-decoration: none;
   color: white;
 }
-.navbar ul li a:hover {
+.navbar ul :hover {
+
   color: rgb(164, 219, 13);
 }
 
+
 .toggle-btn {
   position: absolute;
-  top: 0.75rem;
+  top: .75rem;
   right: 1rem;
   display: none;
   flex-direction: column;
@@ -55,6 +67,8 @@
   border-radius: 10px;
   z-index: 0;
 }
+
+
 
 /* Home Section */
 #home {
@@ -95,47 +109,6 @@
   text-align: center;
 }
 
-#skills {
-  display: flex;
-  flex-direction: column;
-  background-color: #000000dc;
-  background-size: cover;
-  width: 100%;
-}
-#skills h1 {
-  margin: 60px;
-}
-.columns {
-  display: grid;
-  grid-template-columns: auto auto;
-  padding-left: 50px;
-}
-.box {
-  height: 200px;
-  width: 500px;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 20px;
-  margin: 10px;
-  padding: 20px;
-}
-#skills h1 {
-  color: black;
-  font-size: 3rem;
-}
-.box h2 {
-  color: yellowgreen;
-  font-size: 2rem;
-  margin-bottom: 40px;
-}
-.box p {
-  color: white;
-  font-size: 1.5rem;
-}
-.box .tech {
-  color: white;
-  font-size: 1.1rem;
-  padding: 8px;
-}
 
 /* About Section */
 
@@ -143,7 +116,6 @@
   display: flex;
   flex-direction: column;
   text-align: justify;
-  /* height: 100%; */
   background-color: #000000dc;
   height: 100vh;
 }
@@ -171,93 +143,44 @@
 .name p {
   font-size: 1.2rem;
 }
-
-/* Contact Section */
-
-.social-link {
-  width: 100%;
-  margin: 0 auto;
-  text-align: center;
-  padding: 40px;
-  padding-bottom: 0;
-  /* border-top: 1px solid #eee;
-    margin-top: 50px; */
-}
-.social-link a {
-  font-size: 22px;
-  width: 50px;
-  height: 50px;
-  line-height: 39px;
-  display: inline-block;
-  color: black;
-}
-.social-link button {
-  font-size: 22px;
-
-  line-height: 39px;
-  display: inline-block;
-  color: black;
-}
-.social-link i {
-  width: 50px;
-  height: 50px;
-}
-.social-link p {
-  display: inline-block;
-}
-.social-link i:hover {
-  color: blueviolet;
-}
-#number {
-  height: 50px;
-  width: 50px;
-}
-#number:hover {
-  color: blueviolet;
-}
-
-#contact {
+/* skills */
+#skills{
   display: flex;
   flex-direction: column;
-  background-color: #000000dc;
+  /* background-color: #000000dc; */
 }
-#contact h1 {
-  margin: 50px;
+#skills h1{
+  margin: 60px;
+ 
 }
-.form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.columns{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-left: 50px;
 }
-.input {
-  padding: 15px 20px;
-  margin: 15px;
-  width: 40%;
-  border: none;
-  outline: none;
-  border-radius: 25px;
-}
-#message {
-  margin: 15px;
-  padding: 10px;
+.box{
+  height: 200px;
+  width: 500px;
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 20px;
+  margin: 10px;
+  padding: 20px;
 }
-#submit {
-  padding: 15px 20px;
-  margin: 30px;
-  width: 15%;
-  border-radius: 20px;
-  background-color: #000000dc;
+.box h2{
+  color: yellowgreen;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+.box p{
   color: white;
-  border: none;
-  outline: none;
+  font-size: 1.1rem;
 }
-#submit:hover {
-  background-color: green;
-  color: white;
-  cursor: pointer;
+#mybody{
+  background: #000000dc;
 }
+
+
+/* portfolio */
 #portfolio {
   display: flex;
   flex-direction: column;
@@ -281,3 +204,113 @@
   background-color: white;
   cursor: pointer;
 }
+
+
+/* Contact Section */
+
+#mycontact{
+  background-color: #000000dc;
+width: 100%;
+}
+
+#contact{
+  display: flex;
+  flex-direction: column;
+  background-color: #000000dc;
+
+}
+#contact h1{
+  margin: 50px ;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.input{
+  padding: 15px 20px;
+  margin: 15px;
+  width: 40%;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+}
+#message{
+  margin: 15px;
+  padding: 10px;
+  border-radius: 20px;
+}
+#submit{
+  padding: 15px 20px;
+  margin-top: 5px;
+  width: 15%;
+  border-radius: 20px;
+  background-color: #000000dc;
+  color: white;
+  border: none;
+  outline: none;
+}
+textarea{
+  width: 40%;
+  height:300px;
+}
+#submit:hover{
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+.social-link {
+  position: absolute;
+  bottom: -100px;
+ left: 40%;
+  
+}
+
+
+.social-link ul li{
+  text-decoration: none;
+  list-style: none;
+    margin: 1px 10px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px 20px;
+    border:1px solid white;
+    border-radius: 50%;
+    text-decoration: none;
+    text-align: center;
+    position: sticky;
+    line-height: 1px;
+    transition: .5s;
+ 
+}
+
+.social-link ul li a{
+  color: white;
+}
+
+.social-link ul li a:hover{
+  color: rgb(164, 219, 13);
+  cursor: pointer;
+}
+
+#name-error, #email-error, #name-error, #message-error{
+  font-size: 18px;
+  color: #c62828;
+  background: rgba(243, 237, 237, 0.1);
+  text-align: center;
+  padding: 5px 8px;
+  border-radius: 3px;
+  border: 1px solid white;
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+

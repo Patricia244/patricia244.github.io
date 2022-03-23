@@ -1,97 +1,51 @@
+/* navbar */
+.navbar-links ul li{
+  font-size: .75rem;
+  }
+   
+
 /* Boxes */
 .columns{
-    grid-template-columns: auto;
-    justify-content: center
-    
+  grid-template-columns: auto;
+  justify-content: center;
 }
-.box{
-    height: 200px;
-    width: 510px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 20px;
-    margin: 10px;
-    padding: 20px;
+#technical{
+  height: 150px;
+  width: 250px;
+  
+}
+#personal{
+  height: 150px;
+  width: 250px;
+
 }
 .box h2{
-    color: yellowgreen;
-    font-size: 2rem;
-    margin-bottom: 40px;
+  color: yellowgreen;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
 }
 .box p{
-    color: white;
-    font-size: 1.5rem;
+  color: white;
+  font-size: .8rem;
+}
+/* contact */
+
+.social-link {
+  position: absolute;
+  bottom: -50px;
+  align-items: center;
 }
 
-.box li{
-    padding:10px;
-    margin-left:3px;
-
-}
-.navbar::before{
-    width:100%;
-    background-color: #000000dc;
-    
+.navbar-links ul li{
+  padding: 9px;
+  margin-top: 10px;
 }
 
-.toggle-btn{
-    display: flex;
+.social-link ul li{
+margin: 5px;
 
 }
-.navbar-links{
-    display: none;
-    width: 100%;
+#submit{
+margin-top: 2px;
+width: 19%;
 }
-.navbar{
-    flex-direction: column;
-    align-items: flex-start;
-}
-.navbar-links ul{
-    flex-direction: column;
-    width: 100%;
-}
-.navbar-links li{
-  padding: .1rem;
-}
-.navbar-links.active{
-    display: flex;
-}
-
-
-
-
-
-
-#skills{
-    width:100%;
-}
-#home::before{
-    width:100%;
-}
-
-#message {
-    width: 40%;
-    height: 200px;
-  }
-  
-  /* Boxes */
-  .box {
-    height: 150px;
-    width: 250px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 20px;
-    margin: 10px;
-    padding: 10px;
-  }
-  .box h2 {
-    color: yellowgreen;
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-  }
-  .box p {
-    color: white;
-    font-size: 0.8rem;
-  }
-  #portfolio{
-      
-  }
-  
