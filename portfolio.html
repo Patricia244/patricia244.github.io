@@ -13,7 +13,7 @@
     
     <script src="script.js" defer></script>
 </head>
-<body>
+<body id="myPortfolio">
     <nav class="navbar">
         <a class="toggle-btn" >
             <span class="bar"></span>
@@ -34,11 +34,24 @@
 
       <section id="portfolio">
         <h1 class="heading">Portfolio</h1>
-        <div class="gallery">
-            <img src="./images/HTML.png" alt="">
-            <img src="./images/javascript.png" alt="">
-            <img src="./images/css.jpg" alt="">
-            
+      <div class="gallery">
+        <div class="cards">
+           <div class="front">
+            <img src="./images/tictac.png" alt="">  </div>
+           <div class="back">
+            <h1>TicTacToe</h1>
+            <p>Learning:DOM Manipulation</p><br>
+            <button onclick="location.href='http://127.0.0.1:5502/index.html'">view</button>
+           </div> 
+        </div>
+        <div class="cards">
+            <div class="front1"> <img src="images/memory.png" alt=""></div>
+            <div class="back1">
+             <h1>Memory game</h1>
+             <p>Learning:TDD, Dom Manipulation, Mocks and spies</p><br>
+             <button onclick="location.href='https://github.com/Umuzi-org/Silindile-Madlala-222-memory-game-in-vanilla-js-javascript'">view</button>
+            </div>
+        </div>
         </div>
     </section>
 </body>
