@@ -12,7 +12,7 @@
 }
 /* Headings */
 .heading{
-  font-size: 2.3rem;
+  font-size: 1.3rem;
   margin-top: 10%;
 }
 
@@ -23,6 +23,14 @@
 }
 
 /* About Section */
+#about {
+ 
+  height: 70%;
+  width: 100%;
+  
+ 
+}
+
 .about{
   flex-direction: column;
 }
@@ -35,43 +43,78 @@
   height: 150px;
   padding: 0px 15px;
 }
+/* skills */
+
+.box{
+  height: 200px;
+  width: 500px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  margin: 10px;
+  padding: 20px;
+}
+#technical p,#personal p {
+  font-size: 1.1rem;
+}
+
 /* Message box */
 #message{
   width: 40%;
   height: 200px;
 }
 
-/* Boxes */
-.box{
-  height: 150px;
-  width: 250px;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 20px;
-  margin: 10px;
-  padding: 10px;
-}
-.box h2{
-  color: yellowgreen;
-  font-size: 1.2rem;
-  margin-bottom: 20px;
-}
-.box p{
-  color: white;
-  font-size: .8rem;
-}
-.social-link {
-  position: absolute;
-  bottom: 50px;
-  left: 9%;
 
+/* Contact Section */
+#contact{
+  height: 80%;
+  width: 70%;
+}
+.heading{
+  font-size: 1.3rem;
+  margin-top: 10%;
+}
+.form{
+  display: flexbox;
+ margin-bottom: 50%;
+}
+.social-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  
 }
 
-#mybody{
-  background:  #000000dc;
+.social-link ul{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #000000dc;
+  text-align: center;
+  padding: 10px 0;
+  margin: 0;
 }
-.box{
-  margin-top: 50%;
-}
+
 #name{
-  margin-top: 30%;
+  margin-top: 40%;
+}
+#name,#email,#message{
+  width: 150px;
+}
+#submit{
+width: 100%;
+}
+.bubble img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.bubble{
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  bottom: -100px;
 }

@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Bodoni Moda', serif;
 }
 
 
@@ -10,6 +11,15 @@ html,body{
   height: 100%;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+ 
+}
+body{
+  background: linear-gradient(#dab6fc, #8e94f2);
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #fff;
   overflow-x: hidden;
 }
 
@@ -76,7 +86,7 @@ html,body{
   height: 100vh;
   justify-content: center;
   align-items: center;
-  color: white;
+  
 }
 #home::before {
   content: "";
@@ -87,7 +97,7 @@ html,body{
   height: 100vh;
   width: 100%;
   z-index: -1;
-  opacity: 0.8;
+  opacity: 0.3;
 }
 ::-webkit-scrollbar {
   display: none;
@@ -102,9 +112,11 @@ html,body{
 }
 #home h1 {
   margin-top: -30%;
+  color: #5e548e;
 }
 #home p {
   text-align: center;
+  font-size: 50px;
 }
 
 
@@ -113,12 +125,22 @@ html,body{
 #about {
   display: flex;
   flex-direction: column;
-  text-align: justify;
-  background-color: #000000dc;
-  height: 100vh;
-}
-#about h1 {
+  background-color: #8e94f2;
+  height: 1000px;
+  width: 1000px;
+  margin: 0 auto;
+  border-radius: 50%;
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;  
+  justify-content: center;
+  align-items: center;
   color: white;
+ 
+}
+
+#about h1,h2 {
+  color: #5e548e;
   margin: 55px;
 }
 .about {
@@ -130,7 +152,10 @@ html,body{
   width: 500px;
   height: 400px;
   padding: 0px 30px;
+  border-radius: 50%;
 }
+
+
 .name {
   padding: 10px;
   color: white;
@@ -148,8 +173,8 @@ html,body{
 
 }
 #skills h1{
-  margin: 60px;
- 
+  margin: 50px;
+  color: #5e548e;
 }
 .columns{
   display: grid;
@@ -157,15 +182,15 @@ html,body{
   padding-left: 50px;
 }
 .box{
-  height: 200px;
+  height: 300px;
   width: 500px;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: #8e94f2;
   border-radius: 20px;
   margin: 10px;
   padding: 20px;
 }
 .box h2{
-  color: yellowgreen;
+  color: #5e548e;
   font-size: 2rem;
   margin-bottom: 40px;
 }
@@ -173,9 +198,7 @@ html,body{
   color: white;
   font-size: 1.1rem;
 }
-#mybody{
-  background: #000000dc;
-}
+
 
 /* portfolio */
 #portfolio {
@@ -186,11 +209,10 @@ html,body{
 
   color: aliceblue;
 }
-#myPortfolio{
-  background: #000000dc;
-} 
+
 #portfolio h1 {
   margin: 60px;
+  color: #5e548e;
 }
 .gallery {
   display: flex;
@@ -262,19 +284,23 @@ transition: transform 1500ms;
 }
 
 /* Contact Section */
-#mycontact{
-  background-color: #000000dc;
-width: 100%;
-}
 
 #contact{
   display: flex;
   flex-direction: column;
-  background-color: #000000dc;
-
+  background-color: #8e94f2;
+  height: 1000px;
+  width: 1000px;
+  margin: 0 auto;
+  border-radius: 15%;
+  justify-content: center;
+  align-items: center;
+  color: white;
+ 
 }
 #contact h1{
   margin: 50px ;
+  color: #5e548e;
 }
 .form{
   display: flex;
@@ -304,9 +330,13 @@ width: 100%;
   color: white;
   border: none;
   outline: none;
+  width: 150px;
+}
+#name,#email{
+  width: 200%;
 }
 textarea{
-  width: 40%;
+  width: 200%;
   height:300px;
 }
 #submit:hover{
@@ -314,16 +344,27 @@ textarea{
   color: white;
   cursor: pointer;
 }
+
+/* social media */
 .social-link{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  background-color: #000000dc;
-  color: white;
   margin: 20px;
-  height: 100px;
+  
 }
+
+.social-link ul{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #000000dc;
+  text-align: center;
+  padding: 10px 0;
+  margin: 0;
+}
+
 
 .social-link ul li{
   text-decoration: none;
@@ -334,7 +375,6 @@ textarea{
     padding: 20px 20px;
     border:2px solid white;
     border-radius: 50%;
-    text-decoration: none;
     text-align: center;
     position: sticky;
     line-height: 1px;
@@ -343,7 +383,7 @@ textarea{
 }
 
 .social-link ul li a{
-  color: white;
+  color: white; 
 }
 
 .social-link ul li:hover{
@@ -366,11 +406,147 @@ textarea{
 }
 
 
+.bubble img{
+  animation: bubble 7s infinite;
+}
+
+.bubble{
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  bottom: -100px;
+}
+
+@keyframes bubble{
+  0%{
+    transform: translateY(0);
+    opacity: 0;
+  }
+  50%{
+   
+    opacity: 1;
+  }
+  70%{
+
+    opacity: 1;
+  }
+  100%{
+    transform: translateY(-80vh);
+    opacity: 0;
+  }
+}
+
+.bubble img:nth-child(1){
+  animation-delay: 2s;
+}
+.bubble img:nth-child(2){
+  animation-delay: 1s;
+}
+.bubble img:nth-child(3){
+  animation-delay: 3s;
+}
+.bubble img:nth-child(4){
+  animation-delay: 4.5s;
+}
+.bubble img:nth-child(5){
+  animation-delay: 3s;
+}
+.bubble img:nth-child(6){
+  animation-delay: 6s;
+}
+.bubble img:nth-child(7){
+  animation-delay: 2.5s;
+}
+.bubble img:nth-child(8){
+  animation-delay: 7s;
+}
+.bubble img:nth-child(9){
+  animation-delay: 5s;
+}
+.bubble img:nth-child(10){
+  animation-delay: 4.5s;
+}
+.bubble img:nth-child(11){
+  animation-delay: 3s;
+}
+.bubble img:nth-child(12){
+  animation-delay: 6s;
+}
+.bubble img:nth-child(13){
+  animation-delay: 2.5s;
+}
+.bubble img:nth-child(14){
+  animation-delay: 7s;
+}
+.bubble img:nth-child(15){
+  animation-delay: 5s;
+
+}
+
+.bubble img:nth-child(16){
+  animation-delay: 5s;
+
+}
 
 
+@media screen  and (max-width: 912px){
+  
+  #contact{
+    width: 50%;
+    height: 100%;
+    border-radius: 15%;
+    margin: 0 auto;
+    padding: 20px;  
+    align-items: center;
+  }
+  #contact {
+    margin-top: 60px ;
+  }
+  #name{
+    margin-top: 20%;
+  }
+  
+  social-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    
+  }
+  .social-link{
+    position: absolute;
+    bottom: -10px;
+    left: 20%;
+    
 
-
-
-
+  }
+  #about {
+ 
+    height: 70%;
+    width: 100%;
+  }
+  .bubble img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  }
+  .bubble{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -70px;
+  }
+}
+@media screen  and (max-width: 1280px) {
+  
+ 
+  .bubble{
+    display: none;
+  }
+}
 
 

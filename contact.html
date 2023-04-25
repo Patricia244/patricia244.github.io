@@ -1,75 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>contact me</title>
-    <link rel="stylesheet" href="./style/style.css">
-    <script src="https://kit.fontawesome.com/4fcd54d10c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style/style.css" />
     <link rel="stylesheet" media="screen and (max-width:1180px)" href="./style/tablet.css">
     <link rel="stylesheet" media="screen and (max-width:900px)" href="./style/phone1.css">
-    <link rel="stylesheet" media="screen and (max-width:695px)" href="./style/phone.css"> 
+    <link rel="stylesheet" media="screen and (max-width:695px)" href="./style/phone.css">
+    
+    <script
+      src="https://kit.fontawesome.com/4fcd54d10c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:1180px)"
+      href="./style/tablet.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:900px)"
+      href="./style/phone1.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:695px)"
+      href="./style/phone.css"
+    />
     <script defer src="script.js"></script>
-</head>
-<body  id = "mycontact" >
-  
-    <nav class="navbar">
-        <a  href ="#" class=" toggle-btn">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
+  </head>
+  <body>
+    <div id="container">
+      <nav class="navbar">
+        <a href="#" class="toggle-btn">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </a>
         <div class="navbar-links">
-          <ul  id="uls">
-              <li><a href="index.html">Home</a></li>
-              <li> <a  href= "about.html" > About</a> </a></li>
-              <li><a   href="skills.html">Skills</a></li>
-              <li><a   href="portfolio.html">Portfolio</a></li>
-              <li><a   href="contact.html">Contact Me</a>
-              </li>
+          <ul id="uls">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html"> About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
           </ul>
-      </div>
+        </div>
       </nav>
-     
-      <div id = "contact"></div>
-      <h1 class="heading">Contact</h1>
-      <form  action="https://formsubmit.co/patriciaslindile5@gmail.com" method="POST"class="form" id = "form" name="form" onsubmit="return validate()">
-      <input type="text"  id ="name"    name="name"  class ="input" placeholder="Enter Your Name">
-    <div id="name-error">Please enter your name</div>
-    <input type="email" id ="email" name="email" class ="input" placeholder="Enter Your Email">
-          <div id="email-error">Please fill up Email or Phone Number</div> 
-         <textarea name="message" id="message" placeholder="Enter Your Message"></textarea>
-         <div id="message-error"> please enter atleast 30 characters</div>
-         <input type="submit" value="Send" id="submit" >
-      </form>
 
-    </div>
+      <div id="contact">
+        <h1 class="heading">Contact</h1>
+        <form class="form"
+          action="https://formsubmit.co/patriciaslindile5@gmail.com"
+          method="POST"
+          class="form"
+          id="form"
+          name="form"
+          onsubmit="return validate()"
+        >
+          <input
+            type="text"
+            id="name"
+            name="name"
+            class="input"
+            placeholder="Enter Your Name"
+          />
+          <div id="name-error">Please enter your name</div>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            class="input"
+            placeholder="Enter Your Email"
+          />
+          <div id="email-error">Please fill up Email or Phone Number</div>
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Enter Your Message"
+          ></textarea>
+          <div id="message-error">please enter at least 30 characters</div>
+          <input type="submit" value="Send" id="submit" />
+        </form>
 
-      <div class="social-link">
+        <div class="social-link">
           <ul>
-        <li><a href = 'https://www.linkedin.com/in/silindile-madlala-4799241a7/' target ="blank">
-            <i class="fab fa-linkedin"></i>
-           
-        </a>
-    </li>
-    <li><a href="https://github.com/Patricia244" target ="blank">
-  
-        <i class="fab fa-github"></i>  
-    </a>
-</li>
-    <li><a href="tel:073 891 8236" id="number">
-    <i class="fa fa-phone-square" aria-hidden="true"></i>
-    </a>
-   </a>
-</li>
-</ul>
-</div>
-
-     
+            <li>
+              <a
+                href="https://www.linkedin.com/in/silindile-madlala-4799241a7/"
+                target="blank"
+              >
+                <i class="fab fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://github.com/Patricia244" target="blank">
+                <i class="fab fa-github"></i
+              ></a>
+            </li>
+            <li>
+                <a href="tel:0738918236">
+                <i class="fa fa-phone-square" aria-hidden="true"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
     <script src="validate.js"></script>
-
-     
-
-</body>
+  </body>
 </html>
