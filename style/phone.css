@@ -2,7 +2,9 @@
 .navbar-links ul li {
   font-size: 0.75rem;
 }
-
+.navbar{
+  z-index: 2;
+}
 /* about */
 #about {
   width: 70%;
@@ -42,7 +44,10 @@
 }
 
 /* portfolio */
-
+/* .gallery{
+  position: relative;
+  z-index: -1;
+} */
 .front img,
 .front1 img {
   width: 100%;

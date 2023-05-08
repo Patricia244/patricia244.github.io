@@ -89,7 +89,9 @@
   width: 40%;
   height: 200px;
 }
-
+.navbar{
+  z-index: 2;
+}
 .social-link {
   display: flex;
   justify-content: center;
