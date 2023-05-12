@@ -2,7 +2,7 @@
 .navbar-links ul li {
   font-size: 0.75rem;
 }
-.navbar{
+.navbar {
   z-index: 2;
 }
 /* about */
@@ -31,11 +31,11 @@
 }
 #technical {
   height: 300px;
-  width: 250px;
+  width: 80%;
 }
 #personal {
   height: 300px;
-  width: 250px;
+  width: 80%;
 }
 .box h2 {
   color: 5548ee;
@@ -44,10 +44,6 @@
 }
 
 /* portfolio */
-/* .gallery{
-  position: relative;
-  z-index: -1;
-} */
 .front img,
 .front1 img {
   width: 100%;
@@ -80,11 +76,6 @@
   text-align: center;
   padding: 10px 0;
   margin: 0;
-}
-
-.navbar-links ul li {
-  padding: 9px;
-  margin-top: 10px;
 }
 
 .social-link ul li {
