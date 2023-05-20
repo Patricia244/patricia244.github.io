@@ -205,7 +205,7 @@ body {
 }
 .gallery {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
   width: 350px;
   height: 500px;
@@ -357,10 +357,10 @@ textarea {
 .social-link ul {
   position: fixed;
   position: absolute;
-  bottom: -80px;
+  bottom: 0px;
   left: 0;
   width: 100%;
-  background-color: #000000dc;
+  background-color:#000000dc;
   text-align: center;
   padding: 10px 0;
   margin: 0;
@@ -382,7 +382,7 @@ textarea {
 }
 
 .social-link ul li a {
-  color: white;
+  color:  #fff;
 }
 
 .social-link ul li:hover {
@@ -509,7 +509,7 @@ textarea {
   font-size: 1.1rem;
 }
   #contact {
-    width: 70%;
+    width: 50%;
     height: 100%;
     border-radius: 15%;
     margin: 0 auto;
@@ -523,17 +523,17 @@ textarea {
     margin-top: 20%;
   }
 
-  social-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
-  }
+  
   .social-link {
     position: absolute;
-    bottom: -10px;
+    bottom: 55px;
     left: 20%;
   }
+
+  .social-link ul{
+background-color: linear-gradient(#dab6fc, #8e94f2);
+    width: 100%;
+  }  
   #about {
     height: 550px;
     width: 80%;
@@ -551,3 +551,17 @@ textarea {
 
 
 
+@media screen and (max-width: 1024px){
+  .social-link {
+    position: absolute;
+    bottom: -30px;
+    left: 20%;
+  
+  }
+
+  .social-link ul{
+background-color: linear-gradient(#dab6fc, #8e94f2);
+    width: 100%;
+  }  
+  
+}
