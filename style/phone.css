@@ -2,20 +2,17 @@
 .navbar-links ul li {
   font-size: 0.75rem;
 }
-.navbar{
+.navbar {
   z-index: 2;
 }
 /* about */
 #about {
-  width: 70%;
+  width: 80%;
   height: 1000px;
-  border-radius: 15%;
   padding: 20px;
   border-radius: 20px;
 }
-.heading {
-  margin-top: 10px;
-}
+
 
 #about img {
   width: 100%;
@@ -26,28 +23,30 @@
 
 /* Boxes */
 .columns {
-  grid-template-columns: auto;
-  justify-content: center;
+  display: inline-block;
+  margin-left: 20%;
 }
 #technical {
-  height: 300px;
+  height: 310px;
   width: 250px;
 }
+
 #personal {
-  height: 300px;
+  height: 340px;
   width: 250px;
 }
 .box h2 {
   color: 5548ee;
-  font-size: 1.2rem;
+  font-size: 16px;
   margin-bottom: 20px;
 }
 
-/* portfolio */
-/* .gallery{
-  position: relative;
-  z-index: -1;
-} */
+#technical p {
+  color: 5548ee;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
 .front img,
 .front1 img {
   width: 100%;
