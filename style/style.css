@@ -360,7 +360,7 @@ textarea {
   bottom: 0px;
   left: 0;
   width: 100%;
-  background-color:#000000dc;
+  background-color:#dab6fc;
   text-align: center;
   padding: 10px 0;
   margin: 0;
@@ -374,7 +374,7 @@ textarea {
   font-size: 20px;
   padding: 20px 20px;
   border: 2px solid white;
-  border-radius: 50%;
+  border-radius: 15%;
   text-align: center;
   position: sticky;
   line-height: 1px;
@@ -497,6 +497,7 @@ textarea {
   }
   .navbar-links ul {
     margin-top: 50%;
+    padding-top: 10%;
   }
 
   .columns {
@@ -517,7 +518,9 @@ textarea {
     align-items: center;
   }
   #contact {
-    margin-top: 60px;
+    margin-top: 40px;
+    
+  
   }
   #name {
     margin-top: 20%;
@@ -526,14 +529,13 @@ textarea {
   
   .social-link {
     position: absolute;
-    bottom: 55px;
+    bottom: -40px;
     left: 20%;
+    background-color: transparent;
+   
   }
 
-  .social-link ul{
-background-color: linear-gradient(#dab6fc, #8e94f2);
-    width: 100%;
-  }  
+  
   #about {
     height: 550px;
     width: 80%;
@@ -549,9 +551,7 @@ background-color: linear-gradient(#dab6fc, #8e94f2);
   
 }
 
-
-
-@media screen and (max-width: 1024px){
+/* @media screen and (max-width: 1024px){
   .social-link {
     position: absolute;
     bottom: -30px;
@@ -564,4 +564,4 @@ background-color: linear-gradient(#dab6fc, #8e94f2);
     width: 100%;
   }  
   
-}
+} */
