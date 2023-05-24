@@ -537,5 +537,9 @@ textarea {
   .bubble {
     display: none;
   }
+  .navbar-links ul {
+    margin-top: 50%;
+    padding-top: 10%;
+  }
 }
 
