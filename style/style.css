@@ -165,7 +165,6 @@ body {
   justify-content: center;
   align-items: center;
   color: #5e548e;
- 
 }
 .columns {
   display: flex;
@@ -293,7 +292,6 @@ body {
   border-radius: 15%;
   justify-content: center;
   align-items: center;
-  
 }
 #contact h1 {
   display: flex;
@@ -351,7 +349,6 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .social-link ul {
@@ -360,7 +357,7 @@ textarea {
   bottom: 0px;
   left: 0;
   width: 100%;
-  background-color:#dab6fc;
+  background-color: #dab6fc;
   text-align: center;
   padding: 10px 0;
   margin: 0;
@@ -382,8 +379,7 @@ textarea {
 }
 
 .social-link ul li a {
-  color:  #fff;
-  
+  color: #fff;
 }
 
 .social-link ul li:hover {
@@ -494,7 +490,6 @@ textarea {
   .navbar ul {
     flex-wrap: wrap;
     justify-content: center;
-    
   }
   .navbar-links ul {
     margin-top: 50%;
@@ -503,13 +498,13 @@ textarea {
 
   .columns {
     display: inline-block;
-  margin-left: 20%;
+    margin-left: 20%;
   }
 
   #technical p,
-#personal p {
-  font-size: 1.1rem;
-}
+  #personal p {
+    font-size: 1.1rem;
+  }
   #contact {
     width: 50%;
     height: 100%;
@@ -520,49 +515,27 @@ textarea {
   }
   #contact {
     margin-top: 40px;
-    
-  
   }
   #name {
     margin-top: 20%;
   }
 
-  
   .social-link {
     position: absolute;
     bottom: -40px;
     left: 20%;
     background-color: transparent;
-   
   }
 
-  
   #about {
     height: 550px;
     width: 80%;
     border-radius: 15%;
   }
-  
-  
 }
-@media screen and (max-width: 1280px){
+@media screen and (max-width: 1280px) {
   .bubble {
     display: none;
   }
-  
 }
 
-/* @media screen and (max-width: 1024px){
-  .social-link {
-    position: absolute;
-    bottom: -30px;
-    left: 20%;
-  
-  }
-
-  .social-link ul{
-background-color: linear-gradient(#dab6fc, #8e94f2);
-    width: 100%;
-  }  
-  
-} */
