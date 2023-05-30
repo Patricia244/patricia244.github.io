@@ -117,7 +117,9 @@ body {
   border: none;
   outline: none;
   width: 265px;
+  
 }
+
 .cvLink:hover {
   color: #b33970;
   background: linear-gradient(#dab6fc, #8e94f2);
