@@ -563,46 +563,15 @@ textarea {
     width: 80%;
     border-radius: 15%;
   }
+  .bubble{
+    display: none;
+  }
 }
 @media screen and (max-width: 1280px) {
   .bubble {
-    display:flex;
+    display:none;
   }
 
-  .navbar ul {
-    flex-wrap: wrap;
-  }
-  .navbar-links ul li {
-    padding: 9px;
-  }
-  
-  #contact {
-    width: 50%;
-    height: 100%;
-    border-radius: 15%;
-    margin: 0 auto;
-    padding: 20px;
-    align-items: center;
-  }
-  #contact {
-    margin-top: 40px;
-  }
-  #name {
-    margin-top: 30%;
-  }
-
-  .social-link {
-    position: fixed;
-    bottom: -40px;
-    width: 100%;
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-  }
-  
-.navbar {
-  z-index: 2;
-}
 }
 
 
