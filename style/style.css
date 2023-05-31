@@ -566,21 +566,18 @@ textarea {
 }
 @media screen and (max-width: 1280px) {
   .bubble {
-    display: none;
+    display:none;
   }
 
   .navbar ul {
     flex-wrap: wrap;
-    justify-content: center;
   }
-  .navbar-links ul {
-    margin-top: 50%;
-    padding-top: 10%;
+  .navbar-links ul li {
+    padding: 9px;
   }
-
+  
   .navbar-links ul {
-    margin-top: 50%;
-    padding-top: 10%;
+    margin-top: 60%;
   }
 
   #contact {
