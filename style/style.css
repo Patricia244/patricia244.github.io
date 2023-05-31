@@ -568,8 +568,43 @@ textarea {
   .bubble {
     display: none;
   }
+
+  .navbar ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   .navbar-links ul {
     margin-top: 50%;
     padding-top: 10%;
   }
+
+  .navbar-links ul {
+    margin-top: 50%;
+    padding-top: 10%;
+  }
+
+  #contact {
+    width: 50%;
+    height: 100%;
+    border-radius: 15%;
+    margin: 0 auto;
+    padding: 20px;
+    align-items: center;
+  }
+  #contact {
+    margin-top: 40px;
+  }
+  #name {
+    margin-top: 30%;
+  }
+
+  .social-link {
+    position: absolute;
+    bottom: -40px;
+    left: 20%;
+    background-color: transparent;
+}
+.navbar {
+  z-index: 2;
+}
 }
