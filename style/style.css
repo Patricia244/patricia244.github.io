@@ -566,7 +566,7 @@ textarea {
 }
 @media screen and (max-width: 1280px) {
   .bubble {
-    display:none;
+    display:flex;
   }
 
   .navbar ul {
@@ -576,10 +576,6 @@ textarea {
     padding: 9px;
   }
   
-  .navbar-links ul {
-    margin-top: 60%;
-  }
-
   #contact {
     width: 50%;
     height: 100%;
@@ -596,12 +592,17 @@ textarea {
   }
 
   .social-link {
-    position: absolute;
+    position: fixed;
     bottom: -40px;
-    left: 20%;
-    background-color: transparent;
-}
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }
+  
 .navbar {
   z-index: 2;
 }
 }
+
+
