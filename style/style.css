@@ -97,33 +97,31 @@ body {
   display: none;
 }
 .cvLink {
-  font-size: 24px;
+  font-size: 20px;
   text-decoration: none;
-  text-transform: uppercase;
   letter-spacing: 4px;
   overflow: hidden;
-  transition: 0, 2s;
-  color: black;
-  height: 50px;
+  transition: 0, 2s; 
 }
 
+
 .cvLink {
-  padding: 15px 20px;
-  margin-top: 5px;
-  width: 15%;
+  padding-left: 15px ;
+  padding-right: 15px ;
   border-radius: 20px;
   background-color: #8e94f2;
   color: white;
   border: none;
   outline: none;
-  width: 265px;
+  height: 150px;
+  width: 150px;
   
 }
 
 .cvLink:hover {
   color: #b33970;
   background: linear-gradient(#dab6fc, #8e94f2);
-  box-shadow: 0 0 10px #dab6fc, 0 0 40px #dab6fc, 0 0 80px #dab6fc;
+ 
   transition-delay: 0.5s;
   cursor: pointer;
 }
@@ -569,9 +567,9 @@ textarea {
 }
 @media screen and (max-width: 1280px) {
   .bubble {
-    display:none;
+    display: none;
   }
-
+  
 }
 
 
