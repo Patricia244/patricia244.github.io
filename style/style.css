@@ -569,6 +569,11 @@ textarea {
   .bubble {
     display: none;
   }
+  .navbar ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40%;
+  }
   
 }
 
