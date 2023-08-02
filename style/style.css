@@ -201,12 +201,15 @@ body {
   align-items: center;
 }
 .box {
-  height: 310px;
-  width: 500px;
   background-color: #8e94f2;
   border-radius: 20px;
   margin: 10px;
   padding: 20px;
+  max-width: 100%; 
+  margin: 0 auto; 
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
 .box h2 {
   color: #5e548e;
@@ -216,6 +219,21 @@ body {
 .box p {
   color: white;
   font-size: 1.1rem;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.tech {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tech img {
+  max-width: 100px;
+  height: auto;
 }
 
 /* portfolio */
@@ -565,7 +583,7 @@ textarea {
     display: none;
   }
 }
-@media screen and (max-width: 1280px) {
+/* @media screen and (max-width: 1280px) {
   .bubble {
     display: none;
   }
@@ -574,7 +592,10 @@ textarea {
     justify-content: center;
     margin-top: 40%;
   }
+  .box {
+    margin-top: ;
+  }
   
-}
+} */
 
 
