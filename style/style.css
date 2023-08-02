@@ -560,7 +560,7 @@ textarea {
     padding: 20px;
     align-items: center;
   }
-  #contact {
+  #contact form {
     margin-top: 40px;
   }
   #name {
@@ -583,19 +583,20 @@ textarea {
     display: none;
   }
 }
-/* @media screen and (max-width: 1280px) {
+@media screen and (max-width: 1280px) {
   .bubble {
     display: none;
   }
-  .navbar ul {
+  /* .navbar ul {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 40%;
   }
-  .box {
-    margin-top: ;
-  }
-  
-} */
+  .heading{
+    color: #b33970;
+    margin-top: 10px;
+  } */
+}
 
 
+ 
