@@ -543,9 +543,14 @@ textarea {
     padding-top: 10%;
   }
 
+  .parent-container {
+    display: flex;
+    justify-content: center;
+  }
+  
   .columns {
     display: inline-block;
-    margin-left: 20%;
+    width: 250px;
   }
 
   #technical p,
