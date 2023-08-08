@@ -101,13 +101,12 @@ body {
   text-decoration: none;
   letter-spacing: 4px;
   overflow: hidden;
-  transition: 0, 2s; 
+  transition: 0, 2s;
 }
 
-
 .cvLink {
-  padding-left: 15px ;
-  padding-right: 15px ;
+  padding-left: 15px;
+  padding-right: 15px;
   border-radius: 20px;
   background-color: #8e94f2;
   color: white;
@@ -115,13 +114,12 @@ body {
   outline: none;
   height: 150px;
   width: 150px;
-  
 }
 
 .cvLink:hover {
   color: #b33970;
   background: linear-gradient(#dab6fc, #8e94f2);
- 
+
   transition-delay: 0.5s;
   cursor: pointer;
 }
@@ -134,7 +132,7 @@ body {
 }
 #home h1 {
   margin-top: -30%;
-  color: #b33970;
+  color: #4a52bc;
 }
 #home p {
   text-align: center;
@@ -147,15 +145,15 @@ body {
   display: flex;
   background-color: #8e94f2;
   height: 750px;
-  width: 800px;
-  margin: 0 auto;
+  width: 100%; /* Using full width */
+  max-width: 800px; /* Limiting maximum width to 800px */
   border-radius: 15%;
   padding: 20px;
   margin-top: 50px;
-  margin-bottom: 50px;
   justify-content: center;
   align-items: center;
   color: white;
+  margin: 0 auto; /* Center horizontally using margin */
 }
 
 #about h2 {
@@ -182,7 +180,13 @@ body {
   font-size: 2rem;
 }
 .name p {
-  font-size: 1.2rem;
+  font-size: 1.3em;
+}
+#about {
+  height: auto;
+  width: 80%;
+  border-radius: 15%;
+  margin-top: 5%;
 }
 /* skills */
 #skills {
@@ -205,8 +209,8 @@ body {
   border-radius: 20px;
   margin: 10px;
   padding: 20px;
-  max-width: 100%; 
-  margin: 0 auto; 
+  max-width: 100%;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -236,43 +240,35 @@ body {
   height: auto;
 }
 
-/* portfolio */
-#portfolio {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  color: aliceblue;
-}
-
 .heading {
   margin: 50px;
   color: #5e548e;
 }
-.gallery {
+.gallery .cards {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
+  flex-direction: row;
   width: 350px;
   height: 500px;
-  margin: 20px;
+  margin: 20px auto;
 }
 
-.gallery .cards {
-  margin: 20px;
-}
 .cards {
   height: 100%;
   width: 100%;
   position: relative;
   transform-style: preserve-3d;
   padding: 20px 20px;
-}
-.cards:hover {
-  cursor: pointer;
-  transform: rotateY(180deg);
   transition: transform 1500ms;
 }
+
+.gallery .cards:hover {
+  cursor: pointer;
+  transform: rotateY(180deg);
+}
+
 .back,
 .front,
 .back1,
@@ -547,7 +543,7 @@ textarea {
     display: flex;
     justify-content: center;
   }
-  
+
   .columns {
     display: inline-block;
     width: 250px;
@@ -578,30 +574,39 @@ textarea {
     left: 20%;
     background-color: transparent;
   }
-
+  #about img {
+    height: 350px;
+    width: 350px;
+  }
   #about {
-    height: 550px;
+    height: auto;
     width: 80%;
     border-radius: 15%;
+    margin-top: 5%;
   }
-  .bubble{
+  .bubble {
     display: none;
   }
+  .name p {
+    font-size: 1.8em;
+  }
+  /* skills */
 }
 @media screen and (max-width: 1280px) {
   .bubble {
     display: none;
   }
-  /* .navbar ul {
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 40%;
+  .name p {
+    font-size: 1.5em;
   }
-  .heading{
-    color: #b33970;
-    margin-top: 10px;
-  } */
+  #about img {
+    height: 400px;
+    width: 400px;
+  }
+  #about {
+    height: auto;
+    width: 80%;
+    border-radius: 15%;
+    margin-top: 5%;
+  }
 }
-
-
- 

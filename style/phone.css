@@ -11,8 +11,12 @@
   height: 1000px;
   padding: 20px;
   border-radius: 20px;
+  height: auto;
 }
-
+.name p {
+  font-size: 1.3em;
+}
+/* skills */
 
 #about img {
   width: 100%;

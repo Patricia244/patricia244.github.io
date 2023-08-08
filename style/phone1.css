@@ -25,7 +25,6 @@
 #about {
   height: 70%;
   width: 100%;
-
 }
 
 .about {
@@ -33,6 +32,10 @@
 }
 .about h2 {
   text-align: center;
+}
+
+#about {
+  margin-top: 50px;
 }
 
 .about img {
@@ -62,6 +65,9 @@
   height: auto;
 }
 
+.name p {
+  font-size: 1.5em;
+}
 /* portfolio */
 .front img,
 .front1 img {
