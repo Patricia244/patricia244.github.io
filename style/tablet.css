@@ -67,6 +67,29 @@ font-size: 2rem;
 .name p {
   font-size: 1rem;
 }
+.heading {
+  margin: 50px;
+  color: #5e548e;
+}
+.gallery .cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 350px;
+  height: 500px;
+  margin: 20px auto;
+}
+
+.cards {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  padding: 20px 20px;
+  transition: transform 1500ms;
+}
 /* contact */
 
 .heading{
