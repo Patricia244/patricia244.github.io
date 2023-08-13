@@ -260,12 +260,9 @@ body {
   height: 450px;
   position: relative;
   transform-style: preserve-3d;
- 
   margin-top: 40px;
   transition: transform 0.5s;
   transform-origin: center center;
- 
-
 }
 
 .side {
@@ -767,7 +764,7 @@ textarea {
   .flipped {
     transform: rotateY(180deg);
   }
-  
+
 }
 
 @media screen and (max-width: 280px) {
