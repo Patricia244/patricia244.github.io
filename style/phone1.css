@@ -48,12 +48,11 @@
 }
 /* skills */
 .box {
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-  width: 100px;
+  margin: 30px auto;
+  width: auto;
+  height: auto;
 }
-.gallery{
+.gallery {
   flex-direction: column;
 }
 .tech {
@@ -91,8 +90,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-
+  width: auto;
+  gap: 50px;
 }
 
 .card {
@@ -106,8 +105,6 @@
   margin-top: 40px;
   transition: transform 0.5s;
   transform-origin: center center;
- 
-
 }
 
 .side {
@@ -121,8 +118,8 @@
   box-sizing: border-box;
   transition: transform 0.5s;
   transform: rotateY(0deg);
-box-sizing: border-box; 
-padding: 10px;
+  box-sizing: border-box;
+  padding: 10px;
 }
 
 .front {
@@ -136,7 +133,6 @@ padding: 10px;
 .flipped {
   transform: rotateY(180deg);
 }
-
 
 /* Contact Section */
 #contact {

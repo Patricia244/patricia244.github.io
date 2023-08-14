@@ -36,21 +36,10 @@ font-size: 2rem;
   grid-template-columns: auto;
   justify-content: center;
 }
-#technical{
-  width: 500px;
-  margin-top: 30px;
-}
-#technical p{
-  font-size: 22px;
-}
-#personal{
-  margin-top: 25px;
-  width: 500px;
-  
-}
-#personal p{
-  font-size: 22px;
-}
+
+/* .box{
+  max-width: 100%;
+} */
 
 /* portfolio */
 .about img {
@@ -89,6 +78,15 @@ font-size: 2rem;
   transform-style: preserve-3d;
   padding: 20px 20px;
   transition: transform 1500ms;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+gap: 50px;
+
 }
 /* contact */
 
