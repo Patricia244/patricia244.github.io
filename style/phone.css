@@ -188,7 +188,7 @@ font-size: 2rem;
   width: 150px;
 }
 #name {
-  margin-top: 35%;
+  margin-top: 105%;
 }
 .bubble {
   display: none;
@@ -232,6 +232,17 @@ font-size: 2rem;
 
 @media screen and (width: 540px) {
   #name {
+    margin-top: 145%;
+  }
+ 
+}
+
+@media screen and (width: 700px) {
+  #title{
+    margin-top: 20%;
+  }
+  #name {
+    color: blueviolet;
     margin-top: 75%;
   }
  

@@ -594,7 +594,7 @@ textarea {
   .social-link {
     position: absolute;
     bottom: -40px;
-    left: 20%;
+    left: 25%;
     background-color: transparent;
   }
   #about img {
@@ -826,6 +826,7 @@ textarea {
     height: 250px;
     width: 250px;
   }
+  
 }
 
 @media screen and (max-width: 768px) {
@@ -854,4 +855,5 @@ textarea {
     height: 500px;
     margin: 20px auto;
   }
+   
 }
