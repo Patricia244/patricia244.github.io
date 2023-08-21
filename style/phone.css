@@ -2,6 +2,40 @@
 .navbar-links ul li {
   font-size: 0.75rem;
 }
+
+.toggle-btn {
+  display: flex;
+}
+.navbar-links {
+  display: none;
+  width: 100%;
+}
+.navbar-links{
+  background-color: #000000dc;
+  }
+
+.navbar {
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+ 
+}
+
+
+.navbar-links ul li{
+font-size: 2rem;
+}
+.navbar-links ul {
+  flex-direction: column;
+
+  margin-top:45% ;
+}
+.navbar ul li {
+  padding: 5px;
+}
+.navbar-links.active {
+  display: flex;
+}
 .navbar {
   z-index: 2;
 }
@@ -141,4 +175,40 @@
 }
 .bubble {
   display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar-links ul {
+    flex-direction: column;
+    width: 100%;
+    margin-top:65% ;
+  }
+ 
+}
+
+
+@media screen and (max-width: 560px) {
+  .navbar-links ul {
+    flex-direction: column;
+    width: 100%;
+    margin-top:65% ;
+  }
+ 
+}
+
+@media screen and (max-width: 375px) {
+  .navbar-links ul {
+    flex-direction: column;
+    width: 100%;
+    margin-top:79% ;
+  }
+ 
+}
+@media screen and (max-width: 414px) {
+  .navbar-links ul {
+    flex-direction: column;
+    width: 100%;
+    margin-top:79% ;
+  }
+ 
 }

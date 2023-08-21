@@ -1,35 +1,5 @@
 /* navbar */
-.toggle-btn {
-  display: flex;
-}
-.navbar-links {
-  display: none;
-  width: 100%;
-}
-.navbar-links{
-  background-color: #000000dc;
-  }
-.navbar {
-  flex-direction: column;
-  align-items: flex-start;
-  display: flex;
-}
-#uls{
-  margin-top: 40%;
-}
-.navbar-links ul li{
-font-size: 2rem;
-}
-.navbar-links ul {
-  flex-direction: column;
-  width: 100%;
-}
-.navbar ul li {
-  padding: 25px;
-}
-.navbar-links.active {
-  display: flex;
-}
+
 
 /* skills */
 .columns{
