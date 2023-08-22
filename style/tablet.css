@@ -60,14 +60,12 @@ gap: 50px;
 }
 /* contact */
 
+
 .heading{
-  /* font-size: 3.3rem; */
   margin-top: 10%;
 }
 
-form{
-  margin-top: -20%;
-}
+
 .social-link ul{
   position: relative;
   bottom: -50px;

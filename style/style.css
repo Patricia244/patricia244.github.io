@@ -360,7 +360,7 @@ body {
   flex-direction: column;
   background-color: #8e94f2;
   height: 600px;
-  width: 500px;
+  width: 400px;
   margin: 0 auto;
   border-radius: 15%;
   justify-content: center;
@@ -857,3 +857,14 @@ textarea {
   }
    
 }
+
+@media screen and (width: 899px) {
+  #contact {
+   background-color: #b33970;
+  }
+
+  
+   
+}
+
+

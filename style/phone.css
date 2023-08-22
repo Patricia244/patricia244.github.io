@@ -237,13 +237,3 @@ font-size: 2rem;
  
 }
 
-@media screen and (width: 700px) {
-  #title{
-    margin-top: 20%;
-  }
-  #name {
-    color: blueviolet;
-    margin-top: 75%;
-  }
- 
-}
