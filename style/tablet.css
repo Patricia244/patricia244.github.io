@@ -1,15 +1,9 @@
-/* navbar */
-
-
 /* skills */
 .columns{
   grid-template-columns: auto;
   justify-content: center;
 }
 
-/* .box{
-  max-width: 100%;
-} */
 
 /* portfolio */
 .about img {
@@ -17,19 +11,24 @@
   width: 400px;
   height: 300px;
 }
+
 .name {
   padding: 5px;
 }
+
 .name h2 {
   font-size: 1.7rem;
 }
+
 .name p {
   font-size: 1rem;
 }
+
 .heading {
   margin: 50px;
   color: #5e548e;
 }
+
 .gallery .cards {
   display: flex;
   justify-content: center;
@@ -60,14 +59,10 @@ gap: 50px;
 }
 /* contact */
 
-
 .heading{
   margin-top: 10%;
 }
 
-
 .social-link ul{
-  position: relative;
-  bottom: -50px;
-  left:50%;
+  position: fixed;
 }

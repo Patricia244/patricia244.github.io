@@ -1,12 +1,3 @@
-html,
-body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-  overflow-y: auto;
-}
-
 /* navbar */
 .navbar-links ul li {
   font-size: 0.75rem;
@@ -15,10 +6,12 @@ body {
 .toggle-btn {
   display: flex;
 }
+
 .navbar-links {
   display: none;
   width: 100%;
 }
+
 .navbar-links{
   background-color: #000000dc;
   }
@@ -30,25 +23,25 @@ body {
  
 }
 
-
-.navbar-links ul li{
-font-size: 2rem;
-}
 .navbar-links ul {
   flex-direction: column;
 
   margin-top:45% ;
 }
 .navbar ul li {
-  padding: 5px;
+  padding: 15px 0px;
 }
+
 .navbar-links.active {
   display: flex;
 }
+
 .navbar {
   z-index: 2;
 }
+
 /* about */
+
 #about {
   width: 80%;
   height: 1000px;
@@ -57,7 +50,7 @@ font-size: 2rem;
   height: auto;
 }
 .name p {
-  font-size: 1.3em;
+  font-size: 1em;
 }
 /* skills */
 
@@ -78,7 +71,6 @@ font-size: 2rem;
   display: inline-block;
   width: 250px;
 }
-
 
 .tech {
   display: flex;
@@ -157,7 +149,6 @@ font-size: 2rem;
 
 /* contact */
 #contact {
-  height: 350px;
   width:70%;
 }
 
@@ -180,16 +171,20 @@ font-size: 2rem;
 .social-link ul li {
   margin: 5px;
 }
+
 #message{
   height: 100px;
 }
+
 #submit {
   margin-top: 2px;
-  width: 150px;
+  width: 100px;
 }
+
 #name {
-  margin-top: 105%;
+  margin-top: 80%;
 }
+
 .bubble {
   display: none;
 }
@@ -230,10 +225,4 @@ font-size: 2rem;
  
 }
 
-@media screen and (width: 540px) {
-  #name {
-    margin-top: 145%;
-  }
- 
-}
 
