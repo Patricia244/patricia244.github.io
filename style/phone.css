@@ -1,3 +1,10 @@
+/* home */
+#home { 
+  height: 30rem; 
+  margin-top: 40%;
+}
+
+
 /* navbar */
 .navbar-links ul li {
   font-size: 0.75rem;
@@ -199,12 +206,17 @@
 }
 
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 540px) {
   .navbar-links ul {
     flex-direction: column;
     width: 100%;
     margin-top:65% ;
   }
+  #home { 
+    height: 20rem; 
+    margin-top: 40%;
+  }
+  
  
 }
 
