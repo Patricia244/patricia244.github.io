@@ -29,11 +29,9 @@ body {
 .navbar {
   display: flex;
   justify-content: center;
-  height: 50px;
+  height: 70px;
   align-items: center;
   position: relative;
-  top: 0;
-  padding-bottom: -1px;
   background-color: #000000dc;
   width: 100%;
 }
@@ -205,65 +203,60 @@ body {
 }
 
 /* skills */
+
 #skills {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
-#skills h1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #5e548e;
+#skills .heading {
+  font-size: 30px;
+
+  width: 100%;
 }
 
-.columns {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.parent-container {
+  width: 100vw;
 }
 
 .box {
-  background-color: #8e94f2;
-  border-radius: 20px;
-  padding: 20px;
-  max-width: 100%;
-  margin: 30px auto;
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  margin-top: 15px;
 }
-
-.box h2 {
-  color: #5e548e;
-  font-size: 2rem;
-  margin-bottom: 40px;
-}
-
-.box p {
-  color: white;
-  font-size: 1.1rem;
-}
-
-.box {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
 .tech {
   display: flex;
   align-items: center;
   gap: 10px;
+  height: 15rem;
+  width: 30rem;
+  background-color: #8e94f2;
+  border-radius: 15px;
+}
+
+span {
+  font-size: x-large;
 }
 
 .tech img {
-  max-width: 100px;
-  height: auto;
+  width: 15rem;
+  height: 15rem;
+}
+
+.columns{
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+
 }
 /* portfolio */
 .heading {
-  margin: 50px;
+  padding-top: 1%;
+  padding-bottom: 1%;
   color: #5e548e;
 }
 
@@ -590,11 +583,11 @@ textarea {
 }
 
 @media screen and (max-width: 1024px) {
-  #home { 
-    height: 20rem; 
+  #home {
+    height: 20rem;
     margin-top: 20%;
   }
-  
+
   .toggle-btn {
     display: none;
   }
@@ -654,6 +647,7 @@ textarea {
   }
 
   /* skills */
+
   .cards {
     display: flex;
     flex-direction: row;
@@ -705,11 +699,11 @@ textarea {
 }
 
 @media screen and (max-width: 1280px) {
-  #home { 
-    height: 20rem; 
+  #home {
+    height: 20rem;
     margin-top: 20%;
   }
-  
+
   .bubble {
     display: none;
   }
@@ -728,11 +722,6 @@ textarea {
     width: 80%;
     border-radius: 15%;
     margin-top: 5%;
-  }
-
-  .heading {
-    margin: 50px;
-    color: #5e548e;
   }
 
   .gallery {
@@ -808,6 +797,37 @@ textarea {
 
   #contact {
     width: 40%;
+  }
+
+  .tech {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 12rem;
+    width: 23rem;
+    background-color: #8e94f2;
+    border-radius: 15px;
+  }
+  /* .box {
+    justify-content: center;
+    margin-top: 35%;
+    margin-right: 50%;
+  } */
+
+  span {
+    font-size: 15px;
+  }
+
+  .tech img {
+    width: 10rem;
+    height: 10rem;
+  }
+  .columns{
+    display: flex;
+    /* background-color: aqua; */
+    justify-content: center;
+    margin-top: 5%;
+  
   }
 }
 
@@ -907,8 +927,4 @@ textarea {
     height: 500px;
     margin: 20px auto;
   }
-   
 }
-
-
-

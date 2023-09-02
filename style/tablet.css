@@ -1,9 +1,4 @@
 /* skills */
-.columns{
-  grid-template-columns: auto;
-  justify-content: center;
-}
-
 
 /* portfolio */
 .about img {
@@ -24,10 +19,6 @@
   font-size: 1rem;
 }
 
-.heading {
-  margin: 50px;
-  color: #5e548e;
-}
 
 .gallery .cards {
   display: flex;
@@ -54,14 +45,10 @@
   justify-content: center;
   align-items: center;
   width: auto;
-gap: 50px;
+  gap: 50px;
 
 }
 /* contact */
-
-.heading{
-  margin-top: 10%;
-}
 
 .social-link ul{
   position: fixed;

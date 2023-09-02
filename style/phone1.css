@@ -47,10 +47,7 @@
 }
 
 /* Headings */
-.heading {
-  font-size: 1.3rem;
-  margin-top: 10%;
-}
+
 
 /* Gallery Images */
 .gallery img {
@@ -85,33 +82,6 @@
   display: none;
 }
 
-/* skills */
-.box {
-  margin: 30px auto;
-  width: auto;
-  height: auto;
-}
-
-.gallery {
-  flex-direction: column;
-}
-
-.tech {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.tech img {
-  max-width: 100px;
-  height: auto;
-}
-
-.name p {
-  font-size: 1.5em;
-}
-
-/* portfolio */
 
 .front img,
 .front1 img {
@@ -181,11 +151,6 @@
 /* Contact Section */
 #contact {
   width: 50%;
-}
-
-.heading {
-  font-size: 1.3rem;
-  margin-top: 10%;
 }
 
 .form {
