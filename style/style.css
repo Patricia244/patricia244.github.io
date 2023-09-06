@@ -150,37 +150,29 @@ body {
 }
 
 /* About Section */
-
-#about {
+.about {
   display: flex;
   background-color: #8e94f2;
   height: 45rem;
   max-width: 800px;
   border-radius: 15%;
   padding: 20px;
-  margin-top: 50px;
   justify-content: center;
   align-items: center;
   color: white;
   margin: 0 auto;
 }
 
-#about h2 {
+.about h2 {
   color: #5e548e;
   margin: 10px;
 }
 
-.about {
-  display: flex;
-  align-items: center;
-  margin-bottom: 25%;
-}
 
 .about img {
   width: 400px;
   height: 400px;
-  padding: 0px 30px;
-  border-radius: 50%;
+  border-radius: 30px;
 }
 
 .name {
@@ -188,12 +180,10 @@ body {
   color: white;
 }
 
-.name h2 {
-  font-size: 2rem;
-}
 
 .name p {
   font-size: 1.3em;
+  font-weight: 600;
 }
 
 #about {
@@ -377,7 +367,7 @@ span {
   display: flex;
   flex-direction: column;
   background-color: #8e94f2;
-  height: 30rem;
+  /* height: 30rem; */
   width: 400px;
   margin: 0 auto;
   border-radius: 15%;
@@ -618,10 +608,6 @@ textarea {
     width: 40%;
   }
 
-  #name {
-    margin-top: 30%;
-  }
-
   .social-link {
     position: absolute;
     bottom: -40px;
@@ -811,11 +797,6 @@ textarea {
     background-color: #8e94f2;
     border-radius: 15px;
   }
-  /* .box {
-    justify-content: center;
-    margin-top: 35%;
-    margin-right: 50%;
-  } */
 
   span {
     font-size: 15px;
@@ -832,7 +813,17 @@ textarea {
     margin-top: 5%;
   
   }
+  .about {
+    height: 35rem;
+   
 }
+.name p {
+  font-size: 0.99em;
+  font-weight: 600;
+}
+
+}
+
 
 @media screen and (max-width: 280px) {
   .cards {
@@ -902,6 +893,12 @@ textarea {
     height: 250px;
     width: 250px;
   }
+
+  .about {
+    height: 40rem;
+   
+}
+
 }
 
 @media screen and (max-width: 768px) {
