@@ -16,7 +16,7 @@ body {
 
 body {
   background: linear-gradient(#dab6fc, #8e94f2);
-  font-family: "Poppins", sans-serif;
+  font-family: "Bodoni Moda", serif;
   font-size: 1rem;
   line-height: 1.5;
   color: #fff;
@@ -46,6 +46,7 @@ body {
 }
 .navbar ul li {
   font-size: 1.1rem;
+  font-family: "Bodoni Moda", serif;
 }
 .navbar ul li a {
   padding: 5px 20px;
@@ -228,11 +229,12 @@ body {
   grid-row-gap: 1rem;
   margin-top: 15px;
 }
+
 .tech {
   display: flex;
   align-items: center;
   gap: 10px;
-  height: 15rem;
+  height: 18rem;
   width: 30rem;
   background-color: #8e94f2;
   border-radius: 15px;
@@ -245,6 +247,7 @@ span {
 .tech img {
   width: 15rem;
   height: 15rem;
+  margin-left: 10px;
 }
 
 .columns{
