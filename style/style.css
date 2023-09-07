@@ -19,8 +19,8 @@ body {
   font-size: 1rem;
   line-height: 1.5;
   color: #fff;
-  overflow-x: hidden;
-  overflow-y: auto;
+  /* overflow-x: hidden;
+  overflow-y: hidden; */
 }
 
 /* navbar */
@@ -81,6 +81,7 @@ body {
   height: 100vh;
   justify-content: center;
   align-items: center;
+  overflow-y: hidden;
 }
 
 #home::before {
@@ -149,6 +150,10 @@ body {
 }
 
 /* About Section */
+.bg-shape{
+height: 100vh;
+}
+
 .about {
   display: flex;
   background-color: #8e94f2;
@@ -199,16 +204,17 @@ body {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  height: 100vh;
 }
 
 #skills .heading {
   font-size: 30px;
-
   width: 100%;
 }
 
 .parent-container {
   width: 100vw;
+  height: 100vh;
 }
 
 .box {
@@ -216,7 +222,7 @@ body {
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 1rem;
   grid-row-gap: 1rem;
-  margin-top: 15px;
+
 }
 
 .tech {
@@ -242,7 +248,7 @@ span {
 .columns{
   display: flex;
   justify-content: center;
-  margin-top: 5%;
+
 
 }
 /* portfolio */
@@ -252,6 +258,10 @@ span {
   color: #5e548e;
 }
 
+#portfolio{
+
+  height: 100vh;
+}
 .cards {
   display: flex;
   flex-direction: row;
@@ -361,12 +371,14 @@ span {
   font-family: "Bodoni Moda", serif;
 }
 /* Contact Section */
+#container{
+  height: 100vh;
+}
 
 #contact {
   display: flex;
   flex-direction: column;
   background-color: #8e94f2;
-  /* height: 30rem; */
   width: 400px;
   margin: 0 auto;
   border-radius: 15%;
@@ -587,11 +599,16 @@ textarea {
   .parent-container {
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   .columns {
-    display: inline-block;
-    width: 250px;
+    display: flex;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
   }
 
   #technical p,
@@ -825,6 +842,10 @@ textarea {
 
 
 @media screen and (max-width: 280px) {
+  body{
+    overflow-y: auto;
+  }
+
   .cards {
     display: flex;
     flex-direction: column;
@@ -894,8 +915,17 @@ textarea {
   }
 
   .about {
-    height: 40rem;
+    height: 35rem;
+    font-size: 12px;
    
+}
+.img{
+  height: 100px;
+  width: 100px;
+  display:flex;
+  flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 }
