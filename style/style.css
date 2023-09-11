@@ -950,10 +950,6 @@ textarea {
     text-align: center;
   }
 
-  .bg-shape .heading {
-    background-color: #b33970;
-  }
-
   .gallery {
     display: grid;
     flex-direction: column;
