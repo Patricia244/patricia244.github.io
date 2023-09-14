@@ -1,6 +1,5 @@
 /* home */
-#home { 
-  height: 30rem; 
+#home {
   margin-top: 40%;
 }
 
@@ -215,7 +214,7 @@
   display: none;
 }
 
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 500px) {
   .navbar-links ul {
     flex-direction: column;
     width: 100%;
@@ -256,4 +255,4 @@
  
 }
 
-
+ */
