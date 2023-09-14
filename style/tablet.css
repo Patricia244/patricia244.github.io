@@ -19,36 +19,17 @@
   font-size: 1rem;
 }
 
-
+#portfolio{
+  height: 80vh;
+  background-color: aqua;
+}
 .gallery .cards {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   flex-direction: row;
-  width: 350px;
-  height: 500px;
-  margin: 20px auto;
 }
-
-.cards {
-  height: 100%;
-  width: 100%;
-  position: relative;
-  transform-style: preserve-3d;
-  padding: 20px 20px;
-  transition: transform 1500ms;
-}
-.cards {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  width: auto;
-  gap: 50px;
-
-}
-/* contact */
 
 .social-link ul{
   position: fixed;

@@ -1,12 +1,24 @@
 /* home */
 #home { 
-  height: 30rem; 
-  margin-top: 40%;
+  margin-top: 350px;
 }
 
 /* Navbar */
-.navbar-links ul li {
-  font-size: 0.75rem;
+.navbar-links ul {
+  display: flex;
+  flex-direction: column;
+  margin-top: 41%;
+  background-color: #000000dc;
+  align-items: center;
+  width: 100%;
+}
+.navbar ul li {
+  display: flex;
+  border-bottom: 1px solid lightgray;
+  padding: 15px 0px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 .toggle-btn {
@@ -28,15 +40,6 @@
   display: flex;
 }
 
-.navbar-links ul {
-  flex-direction: column;
-  width: 100%;
-  margin-top:35% ;
-}
-
-.navbar ul li {
-  padding: 15px 0px;
-}
 
 .navbar-links.active {
   display: flex;
@@ -209,4 +212,9 @@
 
 #submit {
   width: 100%;
+}
+
+#portfolio {
+  background-color: #dab6fc;
+  height: 100vh;
 }
