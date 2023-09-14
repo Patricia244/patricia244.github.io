@@ -240,9 +240,6 @@ span {
 
 }
 /* portfolio */
-#portfolio{
-  background:linear-gradient(#dab6fc,#8e94f2)
-}
 .heading {
   padding-top: 1%;
   padding-bottom: 1%;
@@ -268,7 +265,18 @@ span {
   margin-top: 40px;
   transition: transform 0.5s;
   transform-origin: center center;
+  margin: 0px;
 }
+#card2 {
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+ #card1 {
+  margin-top: 0px;
+  margin-left: 0px;
+}
+  
 
 .side {
   width: 100%;
@@ -589,8 +597,13 @@ textarea {
   }
 
   #card2 {
-    margin-top: -100px;
+   margin: 0px;
   }
+
+  #card1 {
+    margin: 0px;
+   }
+ 
 
   .card {
     perspective: 1000px;
@@ -681,13 +694,11 @@ textarea {
   }
 
   .gallery {
-    display: grid;
+    display: flex;
     flex-direction: column;
     grid-gap: 20px;
     justify-content: center;
     align-items: center;
-    width: 350px;
-    height: 500px;
     margin: 20px auto;
   }
 }
@@ -761,6 +772,9 @@ textarea {
   }
 
   /* skills */
+  .gallery{
+    height: 22rem;
+  }
 
   .cards {
     display: flex;
@@ -813,10 +827,6 @@ textarea {
 }
 
 @media screen and (max-width: 1280px) {
-  /* #home {
-    height: 20rem;
-    margin-top: 20%;
-  } */
 
   .bubble {
     display: none;
@@ -838,16 +848,12 @@ textarea {
     margin-top: 5%;
   }
 
+  
   .gallery {
-    margin-top: 40%;
-    display: grid;
-    flex-direction: column;
-    grid-gap: 20px;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 350px;
-    height: 500px;
-    margin: 20px auto;
   }
 
   .cards {
@@ -876,8 +882,6 @@ textarea {
     height: 350px;
     position: relative;
     transform-style: preserve-3d;
-    margin-left: 10%;
-    margin-top: 40px;
     transition: transform 0.5s;
     transform-origin: center center;
   }

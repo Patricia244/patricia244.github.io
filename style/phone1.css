@@ -7,7 +7,7 @@
 .navbar-links ul {
   display: flex;
   flex-direction: column;
-  margin-top: 41%;
+  margin-top: 350px;
   background-color: #000000dc;
   align-items: center;
   width: 100%;
@@ -49,10 +49,8 @@
   z-index: 2;
 }
 
-/* Headings */
-
-
 /* Gallery Images */
+
 .gallery img {
   width: 270px;
   height: 360px;
@@ -118,8 +116,6 @@
   height: 350px;
   position: relative;
   transform-style: preserve-3d;
-  margin-left: 10%;
-  margin-top: 40px;
   transition: transform 0.5s;
   transform-origin: center center;
 }

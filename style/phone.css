@@ -152,6 +152,7 @@
   margin-top: 40px;
   transition: transform 0.5s;
   transform-origin: center center;
+  margin: 0px;
 }
 
 .side {
@@ -280,20 +281,26 @@
     align-items: center;
   }
 
+ 
   #card2 {
-    margin-top: -100px;
-  }
+    margin-top: 0px;
+    margin-left: 0px;
+}
+   
 
+   #card1 {
+    margin-top: 0px;
+    margin-left: 0px;
+}
+    
+  
   .card {
     perspective: 1000px;
-
     width: 20px;
     height: 20px;
     position: relative;
     transform-style: preserve-3d;
-    margin-left: -15%;
     transition: transform 0.5s;
-
     transform-origin: center center;
   }
 
