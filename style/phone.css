@@ -12,6 +12,7 @@
   background-color: #000000dc;
   align-items: center;
 }
+
 .navbar ul li {
   display: flex;
   border-bottom: 1px solid lightgray;
@@ -20,6 +21,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .toggle-btn {
   display: flex;
 }
@@ -61,10 +63,10 @@
   border-radius: 20px;
   height: auto;
 }
+
 .name p {
   font-size: 1em;
 }
-/* skills */
 
 #about img {
   width: 100%;
@@ -72,6 +74,9 @@
   padding: 0px 15px;
   margin-top: 10%;
 }
+
+/* skills */
+
 
 #skills {
   display: flex;
@@ -117,21 +122,70 @@
   height: auto;
 }
 
+/* portfolio */
+#portfolio {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.gallery .cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0px;
+  row-gap: 100px;
+}
+
 .front img,
 .front1 img {
-  width: 300px;
-  height: 350px;
+  width: 15rem;
+  height: 15rem;
   border-radius: 20px;
   margin-bottom: 10px;
+}
+
+#card2 img{
+  width: 16rem;
+  height: 16rem;
+  border-radius: 20px 
 }
 
 .back,
 .front,
 .back1,
 .front1 {
-  height: 350px;
-  width: 350px;
+  height: 200px;
+  width: 200px;
 }
+
+.back p,
+.back1 p {
+  color: rgb(164, 219, 13);
+  font-size: 15px;
+  font-family: "Bodoni Moda", serif;
+}
+
+.back h1,
+.back1 h1 {
+  color: rgb(164, 219, 13);
+  font-size: 15px;
+  font-family: "Bodoni Moda", serif;
+}
+
 
 .cards {
   display: flex;
@@ -140,19 +194,19 @@
   align-items: center;
  
 }
-
 .card {
+  display: flex;
   perspective: 1000px;
   max-width: 100%;
-  width: 380px;
-  height: 380px;
+  width: 200px;
+  height: 200px;
   position: relative;
   transform-style: preserve-3d;
-  margin-left: 10%;
-  margin-top: 40px;
   transition: transform 0.5s;
   transform-origin: center center;
-  margin: 0px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
 }
 
 .side {
@@ -167,7 +221,7 @@
   transition: transform 0.5s;
   transform: rotateY(0deg);
   box-sizing: border-box;
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 .front {
@@ -274,50 +328,72 @@
     margin-top: 121%;
   }
 
-  .cards {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+ .heading{
+  font-size: 20px;
+ }
 
- 
-  #card2 {
-    margin-top: 0px;
-    margin-left: 0px;
+#portfolio {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-   
 
-   #card1 {
-    margin-top: 0px;
-    margin-left: 0px;
+.gallery
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
 }
-    
-  
-  .card {
-    perspective: 1000px;
-    width: 20px;
-    height: 20px;
-    position: relative;
-    transform-style: preserve-3d;
-    transition: transform 0.5s;
-    transform-origin: center center;
-  }
 
-  .side {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    backface-visibility: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    transition: transform 0.5s;
-    transform: rotateY(0deg);
-    box-sizing: border-box;
-    padding: 10px;
-  }
+.gallery .cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0px;
+}
+
+.front img,
+.front1 img {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+#card2 img{
+  width: 13rem;
+  height: 13rem;
+  border-radius: 20px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30%;
+}
+
+.card {
+  display: flex;
+  perspective: 1000px;
+  max-width: 100%;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+  transform-origin: center center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
 
   .front {
     transform: rotateY(0deg);
@@ -331,22 +407,29 @@
     transform: rotateY(180deg);
   }
 
-  #img,
-  #content {
-    width: 250px;
-    height: 250px;
-    border-radius: 20px;
-    margin-bottom: 10px;
-    margin-left: -10%;
-  }
-
   .back,
   .front,
   .back1,
   .front1 {
-    height: 250px;
-    width: 250px;
+    width: 200px;
+    height: 200px;
   }
+
+
+  .back p,
+.back1 p {
+  color: rgb(164, 219, 13);
+  font-size: 15px;
+  font-family: "Bodoni Moda", serif;
+}
+
+.back h1,
+.back1 h1 {
+  color: rgb(164, 219, 13);
+  font-size: 15px;
+  font-family: "Bodoni Moda", serif;
+}
+
 
   .about {
     height: 35rem;
