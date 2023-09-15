@@ -2,6 +2,9 @@
 #home { 
   margin-top: 350px;
 }
+ #home h1{
+  font-size: 30px;
+ }
 
 /* Navbar */
 .navbar-links ul {

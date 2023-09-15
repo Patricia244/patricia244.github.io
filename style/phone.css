@@ -1,7 +1,10 @@
 /* home */
-#home {
-  margin-top: 40%;
+#home { 
+  margin-top: 150px;
 }
+ #home h1{
+  font-size: 30px;
+ }
 
 
 /* navbar */
@@ -112,10 +115,11 @@
 .tech {
   display: flex;
   align-items: center;
-  padding: 0%;
   height: 30%;
   width: 100%;
+  padding: 20px;
 }
+
 
 .tech img {
   max-width: 80px;
@@ -328,6 +332,13 @@
     margin-top: 121%;
   }
 
+  #home { 
+    margin-top: 30px;
+  }
+   #home h1{
+    font-size: 30px;
+   }
+  
  .heading{
   font-size: 20px;
  }
