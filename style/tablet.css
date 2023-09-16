@@ -1,4 +1,7 @@
 /* skills */
+.navbar{
+  position:fixed;
+}
 
 /* portfolio */
 .about img {
