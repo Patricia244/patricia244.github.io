@@ -301,17 +301,6 @@ span {
   cursor: pointer;
 }
 
-.back,
-.front,
-.back1,
-.front1 {
-  /* height: 100%; */
-  /* width: 100%; */
-  /* border-radius: 2rem; */
-  /* box-shadow: 0 0 5px 2px rgb(50, 50, 50, 0.25); */
-  /* position: absolute; */
-  /* backface-visibility: hidden; */
-}
 
 .back,
 .back1 {
