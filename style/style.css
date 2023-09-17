@@ -74,8 +74,6 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  box-sizing: border-box; 
-  box-sizing: border-box; 
   overflow: hidden;
   background-color: #ffffff6e;
   margin-top: 200px;
@@ -146,6 +144,7 @@ body{
 #home h1 {
   color: #4a52bc;
   padding: 30px;
+  margin:0px;
 }
 
 #home p {
@@ -199,15 +198,7 @@ body{
   flex-direction: column;
   justify-content: center;
   text-align: center;
-margin-top: 74px;
 }
-
-#skills .heading {
-  font-size: 30px;
-  width: 100%;
-  padding: 20px;
-}
-
 
 .box {
   display: grid;
@@ -589,20 +580,6 @@ textarea {
     display: none;
   }
 
-  .parent-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .columns {
-    display: flex;
-    width: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10%;
-  }
 
   #technical p,
   #personal p {
@@ -651,15 +628,33 @@ textarea {
   /* skills */
   #skills{
     margin-top: 0px;
-    background-color: yellow;
+    height: 70vh;
   }
 
   #skills .heading {
     font-size: 30px;
     width: 100%;
     padding: 20px;
+    margin-top: 0px;
   }
   
+
+  .parent-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .columns {
+    display: flex;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+  }
+
   .gallery{
     height: 22rem;
   }
@@ -826,11 +821,10 @@ textarea {
     width: 10rem;
     height: 10rem;
   }
+
   .columns{
     display: flex;
-    justify-content: center;
-    margin-top: 5%;
-  
+    justify-content: center
   }
   .about {
     height: auto;

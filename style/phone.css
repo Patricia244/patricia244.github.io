@@ -1,15 +1,14 @@
 /* home */
 #home { 
-  margin-top: 150px;
+  margin-top: 190px;
 }
+
  #home h1{
   font-size: 30px;
+  margin: 0px;
  }
 
-
 /* navbar */
-
-
 .navbar-links ul {
   display: flex;
   flex-direction: column;
@@ -81,24 +80,22 @@
 }
 
 /* skills */
-
-
 #skills {
   display: flex;
   flex-direction: column;
- 
+  height: 80vh;
 }
 
 .parent-container {
-  width: 100vw;
-
+width: 100vw;
+height: 80vh;
 }
 
 .columns {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80vw;
+  width: 100vw;
 }
 
 .box {
@@ -200,6 +197,7 @@
   align-items: center;
  
 }
+
 .card {
   display: flex;
   perspective: 1000px;
@@ -227,7 +225,6 @@
   transition: transform 0.5s;
   transform: rotateY(0deg);
   box-sizing: border-box;
-  /* padding: 10px; */
 }
 
 .front {
@@ -276,55 +273,10 @@
   width: 100px;
 }
 
-
 .bubble {
   display: none;
 }
 
-/* @media screen and (max-width: 500px) {
-  .navbar-links ul {
-    flex-direction: column;
-    width: 100%;
-    margin-top:65% ;
-  }
- 
-}
-
-
-
-@media screen and (max-width: 375px) {
-  .navbar-links ul {
-    flex-direction: column;
-    width: 100%;
-    margin-top:79% ;
-  }
- 
-}
-
-@media screen and (max-width: 414px) {
-  .navbar-links ul {
-    flex-direction: column;
-    width: 100%;
-    margin-top:79% ;
-  }
- 
-}
-
- */
-
-
-
-/* @media screen and (max-width: 540px) {
-  .navbar-links ul {
-    flex-direction: column;
-    width: 100%;
-    margin-top:65% ;
-  }
-  #home { 
-    height: 20rem; 
-    margin-top: 40%;
-  }
-} */
 @media screen and (max-width: 280px) {
   body{
     overflow-y: auto;
@@ -335,8 +287,9 @@
   }
 
   #home { 
-    margin-top: 30px;
+    margin-top: 130px;
   }
+
    #home h1{
     font-size: 30px;
    }
@@ -449,6 +402,7 @@
     font-size: 12px;
    
 }
+
 .img{
   height: 100px;
   width: 100px;
@@ -458,4 +412,7 @@
     justify-content: center;
 }
 
+#skills{
+  height: 80vh;
+}
 }
