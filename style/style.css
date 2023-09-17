@@ -402,7 +402,6 @@ span {
 
 #submit {
   padding: 15px 20px;
-  margin-top: 5px;
   width: 15%;
   border-radius: 20px;
   background-color: #000000dc;
@@ -489,88 +488,6 @@ textarea {
   display: none;
 }
 
-.bubble img {
-  animation: bubble 7s infinite;
-  width: 300px;
-  height: 300px;
-}
-
-.bubble {
-  width: 30%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  position: absolute;
-  z-index: -1;
-}
-
-@keyframes bubble {
-  0% {
-    transform: translateY(0);
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  70% {
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(-80vh);
-    opacity: 0;
-  }
-}
-
-.bubble img:nth-child(1) {
-  animation-delay: 2s;
-}
-.bubble img:nth-child(2) {
-  animation-delay: 1s;
-}
-.bubble img:nth-child(3) {
-  animation-delay: 3s;
-}
-.bubble img:nth-child(4) {
-  animation-delay: 4.5s;
-}
-.bubble img:nth-child(5) {
-  animation-delay: 3s;
-}
-.bubble img:nth-child(6) {
-  animation-delay: 6s;
-}
-.bubble img:nth-child(7) {
-  animation-delay: 2.5s;
-}
-.bubble img:nth-child(8) {
-  animation-delay: 7s;
-}
-.bubble img:nth-child(9) {
-  animation-delay: 5s;
-}
-.bubble img:nth-child(10) {
-  animation-delay: 4.5s;
-}
-.bubble img:nth-child(11) {
-  animation-delay: 3s;
-}
-.bubble img:nth-child(12) {
-  animation-delay: 6s;
-}
-.bubble img:nth-child(13) {
-  animation-delay: 2.5s;
-}
-.bubble img:nth-child(14) {
-  animation-delay: 7s;
-}
-.bubble img:nth-child(15) {
-  animation-delay: 5s;
-}
-
-.bubble img:nth-child(16) {
-  animation-delay: 5s;
-}
-
 @media screen and (max-width: 1024px) {
   #home {
     margin-top: 100px;
@@ -613,9 +530,6 @@ textarea {
     margin-top: 5%;
   }
 
-  .bubble {
-    display: none;
-  }
 
   .name p {
     font-size: 1.8em;
@@ -712,10 +626,6 @@ textarea {
 @media screen and (max-width: 1280px) {
   nav{
     position: sticky;
-  }
-
-  .bubble {
-    display: none;
   }
 
   .name p {
