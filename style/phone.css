@@ -9,6 +9,10 @@
  }
 
 /* navbar */
+nav .navbar{
+  z-index: 1;
+}
+
 .navbar-links ul {
   display: flex;
   flex-direction: column;
