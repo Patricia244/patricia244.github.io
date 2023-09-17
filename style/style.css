@@ -258,6 +258,7 @@ span {
   transform-origin: center center;
   margin: 0px;
 }
+
 #card2 {
   margin-top: 0px;
   margin-left: 0px;
@@ -436,7 +437,6 @@ textarea {
 }
 
 .social-link ul {
-  position: fixed;
   position: absolute;
   bottom: 0px;
   left: 0;
