@@ -22,7 +22,6 @@ body{
 nav .navbar{
   z-index: 3;
 }
-
 .navbar {
   display: flex;
   justify-content: center;
@@ -484,7 +483,6 @@ textarea {
   nav .navbar{
     z-index: 3;
   }
-
   
   #home {
     margin-top: 100px;
@@ -621,11 +619,9 @@ textarea {
 }
 
 @media screen and (max-width: 1280px) {
-  nav .navbar{
-    z-index: 3;
-  }
-  
-
+nav .navbar{
+  z-index: 3;
+}
   .name p {
     font-size: 1.5em;
   }
