@@ -1,9 +1,6 @@
 /* skills */
 .navbar{
   position:fixed;
-}
-
-nav .navbar{
   z-index: 3;
 }
 
