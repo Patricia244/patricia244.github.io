@@ -8,6 +8,9 @@
  }
 
 /* Navbar */
+nav .navbar{
+  z-index: 3;
+}
 
 .navbar-links ul {
   display: flex;

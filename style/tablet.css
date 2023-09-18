@@ -3,6 +3,10 @@
   position:fixed;
 }
 
+nav .navbar{
+  z-index: 3;
+}
+
 /* portfolio */
 .about img {
   padding: 0px 20px;
