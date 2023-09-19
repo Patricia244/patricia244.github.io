@@ -1,6 +1,7 @@
 /* skills */
 .navbar{
   position:fixed;
+  z-index: 3;
 }
 
 /* portfolio */
@@ -32,6 +33,3 @@
   flex-direction: row;
 }
 
-.social-link ul{
-  position: fixed;
-}
