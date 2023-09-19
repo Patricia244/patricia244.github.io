@@ -264,7 +264,7 @@ nav .navbar{
 /* portfolio */
 .about img {
   padding: 0px 20px;
-  width: 400px;
+  width: 300px;
   height: 300px;
 }
 
@@ -306,15 +306,12 @@ nav .navbar{
   padding: 0px;
 }
 
-
-
 .social-link ul {
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
   text-align: center;
-
   margin: 0;
 }
 .social-link {
@@ -484,6 +481,12 @@ nav .navbar{
   color: rgb(164, 219, 13);
   font-size: 15px;
   font-family: "Bodoni Moda", serif;
+}
+
+.about img {
+  padding: 0px 20px;
+  width: 150px;
+  height: 300px;
 }
 
 

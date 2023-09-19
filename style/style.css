@@ -160,7 +160,6 @@ nav .navbar{
 .about {
   display: flex;
   background-color: #8e94f2;
-  height: 45rem;
   max-width: 800px;
   border-radius: 15%;
   padding: 20px;
