@@ -18,6 +18,7 @@ html, body {
 body{
   background-color:#dab6fc;
 }
+
 /* navbar */
 nav .navbar{
   z-index: 3;
@@ -560,7 +561,6 @@ color: white;
     display: none;
   }
 
-
   #technical p,
   #personal p {
     font-size: 1.1rem;
@@ -718,10 +718,8 @@ color: white;
   padding: 0;
  }
 
-
  footer {
   padding: 0;
-  position: sticky;
   }
 
   .footerContainer{
