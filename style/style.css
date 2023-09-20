@@ -181,14 +181,12 @@ nav .navbar{
   height: 400px;
   border-radius: 30px;
   padding: 10px;
-  
 }
 
 .name {
   padding: 20px;
   color: white;
 }
-
 
 .name p {
   font-size: 1.3em;
@@ -243,7 +241,6 @@ span {
 #portfolio{
   padding:30px;
 }
-
 
 .cards {
   display: flex;
