@@ -140,6 +140,7 @@ nav .navbar{
   color: #5e548e;
   position:relative;
   z-index: -1;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0)
 }
 
 #home h1 {
@@ -173,6 +174,7 @@ nav .navbar{
   color: #5e548e;
   margin: 10px;
   font-family: Georgia, "Times New Roman", Times, serif;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0)
 }
 
 
@@ -387,7 +389,14 @@ span {
   width: 40%;
   border: none;
   outline: none;
+  color: #000000;
   border-radius: 25px;
+}
+
+input, textarea{
+  color: #000000;
+  font-size:14px;
+  font-family: Arial, sans-serif;
 }
 
 #message {

@@ -364,7 +364,7 @@ nav .navbar{
   margin-top: 2px;
   width: 100px;
 }
-
+/* media 280px*/
 @media screen and (max-width: 280px) {
   body{
     overflow-y: auto;
