@@ -78,7 +78,7 @@ nav .navbar{
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  background-color: #ffffff6e;
+  background-color:#11111124;
   margin-top: 250px;
   height:auto
 }
@@ -115,12 +115,12 @@ nav .navbar{
   padding-left: 15px;
   padding-right: 15px;
   border-radius: 20px;
-  background-color: #8e94f2;
+  background-color: #e90e71;
   color: white;
   border: none;
   outline: none;
-  height: 150px;
-  width: 150px;
+  height: 250px;
+  width: 250px;
 }
 
 .cvLink:hover {
@@ -142,15 +142,13 @@ nav .navbar{
   z-index: -1;
 }
 
-#heading {
-  text-shadow: 4px 4px 8px rgba(19, 18, 18, 0.5);
-}
-
 #home h1 {
-  color: #4a52bc;
+  color: #e90e71;
   padding: 30px;
   margin:0px;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
+
 
 #home p {
   text-align: center;
@@ -169,6 +167,7 @@ nav .navbar{
   align-items: center;
   color: white;
   margin: 0 auto;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0)
 }
 
 .about h2 {
@@ -240,6 +239,10 @@ span {
 
 }
 /* portfolio */
+#portfolio{
+  padding:30px;
+}
+
 
 .cards {
   display: flex;
@@ -287,6 +290,7 @@ span {
   transform: rotateY(0deg);
   box-sizing: border-box;
   padding: 10px;
+  text-align: center;
 }
 
 .front {
@@ -363,6 +367,7 @@ span {
   border-radius: 15%;
   justify-content: center;
   align-items: center;
+  padding: 20px;
 }
 
 #contact h1 {

@@ -230,6 +230,7 @@ height: 80vh;
   transition: transform 0.5s;
   transform: rotateY(0deg);
   box-sizing: border-box;
+  text-align: center;
 }
 
 .front {
