@@ -167,12 +167,12 @@ nav .navbar{
   align-items: center;
   color: white;
   margin: 0 auto;
-  text-shadow: 2px 2px 4px rgb(0, 0, 0)
 }
 
 .about h2 {
   color: #5e548e;
   margin: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 
@@ -192,7 +192,8 @@ nav .navbar{
 
 .name p {
   font-size: 1.3em;
-  font-weight: 600;
+  font-weight: 300;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0)
 }
 
 /* skills */
