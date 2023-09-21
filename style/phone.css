@@ -87,12 +87,12 @@ nav .navbar{
 #skills {
   display: flex;
   flex-direction: column;
-  height: 80vh;
+  /* height: 80vh; */
 }
 
 .parent-container {
 width: 100vw;
-height: 80vh;
+/* height: 80vh; */
 }
 
 .columns {
@@ -513,7 +513,7 @@ height: 80vh;
     justify-content: center;
 }
 
-#skills{
+/* #skills{
   height: 80vh;
-}
+} */
 }
