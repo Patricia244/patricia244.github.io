@@ -136,6 +136,7 @@ width: 100vw;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0;
 }
 
 .gallery
@@ -154,20 +155,21 @@ width: 100vw;
   align-items: center;
   flex-direction: column;
   padding: 0px;
-  row-gap: 100px;
+  /* height: 100vh; */
+  width: 100%;
 }
 
 .front img,
 .front1 img {
-  width: 15rem;
-  height: 15rem;
+  width: 200px;
+  height: 200px;
   border-radius: 20px;
   margin-bottom: 10px;
 }
 
 #card2 img{
-  width: 16rem;
-  height: 16rem;
+  width: 330px;
+  height: 200px;
   border-radius: 20px 
 }
 
@@ -288,32 +290,6 @@ nav .navbar{
 
 .name p {
   font-size: 1rem;
-}
-
-#portfolio {
-height: 80vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.gallery
-{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  width: 100vw;
-}
-
-.gallery .cards {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 0px;
 }
 
 .social-link ul {
