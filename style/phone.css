@@ -246,14 +246,7 @@ width: 100vw;
   transform: rotateY(180deg);
 }
 
-/* contact */
-#contact {
-  width:70%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+
 
 form{             
   display: flex;
@@ -273,7 +266,7 @@ nav .navbar{
   z-index: 3;
 }
 
-/* portfolio */
+/*about */
 .about img {
   padding: 0px 20px;
   width: 300px;
@@ -291,55 +284,43 @@ nav .navbar{
 .name p {
   font-size: 1rem;
 }
+/* contact */
+#contact {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height:auto;
+  justify-content: center;
+  align-items: center;
+}
 
-.social-link ul {
-  position: fixed;
+#contact h1 {
+  display: flex;
+  margin-top: 0%;
+  color: #5e548e;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  background-color: #8e94f2;
+  max-width: 800px;
+  border-radius: 15%;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 0 auto;
+}
+
+.social-container{
   bottom: 0;
   left: 0;
   width: 100%;
   text-align: center;
   margin: 0;
 }
-.social-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.social-link ul{
-  left: 0;
-  width: 100%;
-  text-align: center;
-  padding: 10px 0;
-  margin: 0;
-}
-
- .social-link ul li {
-  text-decoration: none;
-  list-style: none;
-  margin: 1px 10px;
-  display: inline-block;
-  font-size: 20px;
-  padding: 20px 20px;
-  border: 3px solid white;
-  border-radius: 15%;
-  text-align: center;
-  position: sticky;
-  line-height: 1px;
-  transition: 0.5s;
-}
-
- .social-link ul li a {
-  color: #fff;
-}
-
-.social-link ul li:hover {
-  background-color: #5e548e;
-  color: white;
-  border: 2px solid white;
-  transform: scale(1.2);
-  transition: 0.5s;
-}
 
 #message{
   height: 100px;
@@ -349,6 +330,7 @@ nav .navbar{
   margin-top: 2px;
   width: 100px;
 }
+
 /* media 280px*/
 @media screen and (max-width: 280px) {
   body{
