@@ -18,6 +18,7 @@ html, body {
 
 body{
   background-color:#dab6fc;
+  margin-bottom:70px;
 }
 
 /* navbar */
@@ -462,14 +463,15 @@ textarea {
   opacity: 0.9;
 }
 
-/* .social-icons {
+.social-icons {
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
   text-align: center;
   margin: 0;
-} */
+  background-color: #000000;
+}
 
 
 .social-icons a:hover {
